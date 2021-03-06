@@ -15,7 +15,7 @@ def get_covariates(degree):
         return base_variables
 
 
-def regression(dataframe, degree):
+def regress(dataframe, degree):
     reg = (
         sm.ols(
             formula="INVSALES ~ " + ("+").join(get_covariates(degree)),
