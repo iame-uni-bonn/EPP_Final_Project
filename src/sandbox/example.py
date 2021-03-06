@@ -1,3 +1,17 @@
+import json
+
+import pandas as pd
+
+from src.config import BLD
+from src.config import SRC
+
+
+depends_on = SRC / "model_specs" / "baseline" / "degree_0.json"
+df = BLD / "data" / "Bronzini-Iachini_dataset.csv"
+model = json.loads(depends_on.read_text(encoding="utf-8"))
+print(model["n_degree"])
+
+
 import statsmodels.formula.api as sm
 
 
@@ -25,3 +39,8 @@ def regress(dataframe, degree):
         .summary()
     )
     return reg
+
+
+inputs = pd.read_csv(df)
+
+print(regress(inputs, 0))
