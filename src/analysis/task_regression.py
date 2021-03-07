@@ -20,7 +20,7 @@ from src.model_code.OLS import regress
             },
             BLD / "analysis" / "baseline" / f"regression_{model_name}.pickle",
         )
-        for model_name in ["degree_0"]
+        for model_name in ["degree_0", "degree_1", "degree_2", "degree_3"]
     ],
 )
 def task_regression(depends_on, produces):
