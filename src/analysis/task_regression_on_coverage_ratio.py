@@ -16,7 +16,7 @@ from src.model_code.OLS_coverage_ratio import regress
             {
                 "model": SRC
                 / "model_specs"
-                / "coverage_ratio_of_firm"
+                / "degree_of_polynomials"
                 / f"{model_name}.json",
                 "OLS_coverage_ratio": SRC / "model_code" / "OLS_coverage_ratio.py",
                 "data": BLD / "data" / "Bronzini-Iachini_dataset.csv",

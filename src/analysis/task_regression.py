@@ -21,10 +21,7 @@ from src.model_code.OLS import regress
                 "OLS": SRC / "model_code" / "OLS.py",
                 "data": BLD / "data" / "Bronzini-Iachini_dataset.csv",
             },
-            BLD
-            / "analysis"
-            / "degree_of_ploynomials"
-            / f"regression_{model_name}.pickle",
+            BLD / "analysis" / "baseline" / f"regression_{model_name}.pickle",
         )
         for model_name in ["degree_0", "degree_1", "degree_2", "degree_3"]
     ],

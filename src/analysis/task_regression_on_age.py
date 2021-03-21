@@ -14,7 +14,10 @@ from src.model_code.OLS_age import regress
     [
         (
             {
-                "model": SRC / "model_specs" / "age_of_firm" / f"{model_name}.json",
+                "model": SRC
+                / "model_specs"
+                / "degree_of_polynomials"
+                / f"{model_name}.json",
                 "OLS_age": SRC / "model_code" / "OLS_age.py",
                 "data": BLD / "data" / "Bronzini-Iachini_dataset.csv",
             },
