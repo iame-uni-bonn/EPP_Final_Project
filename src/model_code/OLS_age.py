@@ -13,7 +13,7 @@ def get_covariates(degree):
         "streatfclow",
     ]
     if degree == 0:
-        base = base_variables[0:3]
+        base = base_variables[0:4]
         return base
     if degree == 1:
         return base_variables
@@ -26,6 +26,8 @@ def get_covariates(degree):
         return base_variables
 
 
-def regress(dataframe, degree):
-    reg = mt.reg(dataframe, "INVSALES", get_covariates(degree), cluster="score")
+def regress(dependent_variable, dataframe, degree):
+    reg = mt.reg(
+        dataframe, f"{dependent_variable}", get_covariates(degree), cluster="score"
+    )
     return reg

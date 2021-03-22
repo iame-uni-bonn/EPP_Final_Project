@@ -26,10 +26,10 @@ def get_covariates(degree):
         return base_variables
 
 
-def regress(dataframe, degree):
+def regress(independent_Variable, dataframe, degree):
     reg = (
         sm.ols(
-            formula="INVSALES ~ " + ("+").join(get_covariates(degree)),
+            formula=f"{independent_Variable} ~ " + ("+").join(get_covariates(degree)),
             data=dataframe,
         )
         .fit(cov_type="cluster", cov_kwds={"groups": dataframe["score"]}, use_t=True)

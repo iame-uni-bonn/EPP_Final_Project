@@ -29,6 +29,16 @@ from src.model_code.OLS import regress
 def task_regression(depends_on, produces):
     model = json.loads(depends_on["model"].read_text(encoding="utf-8"))
     inputs = pd.read_csv(depends_on["data"])
-    regression = regress(inputs, model["n_degree"])
+    dependent_variable = [
+        "INVSALES",
+        "INVTSALES",
+        "INVINTSALES",
+        "INVK",
+        "INVA",
+        "LCSALES",
+        "SCSALES",
+    ]
     with open(produces, "wb") as out_file:
-        pickle.dump(regression, out_file)
+        for dv in dependent_variable:
+            regression = regress(dv, inputs, model["n_degree"])
+            pickle.dump(regression, out_file)
