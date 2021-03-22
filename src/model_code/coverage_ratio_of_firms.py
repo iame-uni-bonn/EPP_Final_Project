@@ -2,6 +2,16 @@ import statsmodels.formula.api as sm
 
 
 def get_covariates(degree):
+    """Collect the regressors (independent variables).
+
+    Args:
+        degree (integer): degree of polynomials
+
+    Returns:
+        regressors (list)
+
+    """
+
     base_variables = ["treatl", "treath", "s", "streatl", "streath"]
     if degree == 0:
         base = base_variables[0:2]
@@ -18,6 +28,20 @@ def get_covariates(degree):
 
 
 def regress(dependent_variable, dataframe, degree):
+    """Regress the dependent variables on covariates (independent variables).
+
+    Args:
+        dependent_variable (float): the independent variable
+        dataframe (pd.DataFrame): the dataframe of full sample, narrow window, and wide window
+        degree (integer): degree of polynomials
+
+
+    Returns:
+        regression result(text)
+
+
+    """
+
     reg = (
         sm.ols(
             formula=f"{dependent_variable} ~ " + ("+").join(get_covariates(degree)),

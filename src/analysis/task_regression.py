@@ -6,7 +6,7 @@ import pytask
 
 from src.config import BLD
 from src.config import SRC
-from src.model_code.OLS import regress
+from src.model_code.baseline import regress
 
 
 @pytask.mark.parametrize(
@@ -18,7 +18,7 @@ from src.model_code.OLS import regress
                 / "model_specs"
                 / "degree_of_polynomials"
                 / f"{model_name}.json",
-                "OLS": SRC / "model_code" / "OLS.py",
+                "regression": SRC / "model_code" / "baseline.py",
                 "data": BLD / "data" / "Bronzini-Iachini_dataset.csv",
             },
             BLD / "analysis" / "baseline" / f"regression_{model_name}.pickle",
@@ -28,7 +28,10 @@ from src.model_code.OLS import regress
 )
 def task_regression(depends_on, produces):
     model = json.loads(depends_on["model"].read_text(encoding="utf-8"))
-    inputs = pd.read_csv(depends_on["data"])
+    full_sample = pd.read_csv(depends_on["data"])
+    wide_window = full_sample[(full_sample.score > 51) & (full_sample.score < 81)]
+    narrow_window = full_sample[(full_sample.score > 65) & (full_sample.score < 79)]
+    sample = [full_sample, wide_window, narrow_window]
     dependent_variable = [
         "INVSALES",
         "INVTSALES",
@@ -39,6 +42,7 @@ def task_regression(depends_on, produces):
         "SCSALES",
     ]
     with open(produces, "wb") as out_file:
-        for dv in dependent_variable:
-            regression = regress(dv, inputs, model["n_degree"])
-            pickle.dump(regression, out_file)
+        for df in sample:
+            for dv in dependent_variable:
+                regression = regress(dv, df, model["n_degree"])
+                pickle.dump(regression, out_file)

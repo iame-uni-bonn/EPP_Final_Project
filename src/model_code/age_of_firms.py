@@ -2,6 +2,15 @@ import econtools.metrics as mt
 
 
 def get_covariates(degree):
+    """Collect the regressors (independent variables).
+
+    Args:
+        degree (integer): degree of polynomials
+
+    Returns:
+        regressors (list)
+
+    """
     base_variables = [
         "fchighm",
         "fclowm",
@@ -27,6 +36,20 @@ def get_covariates(degree):
 
 
 def regress(dependent_variable, dataframe, degree):
+    """Regress the dependent variables on covariates (independent variables).
+
+    Args:
+        dependent_variable (float): the independent variable
+        dataframe (pd.DataFrame): the dataframe of full sample, narrow window, and wide window
+        degree (integer): degree of polynomials
+
+
+    Returns:
+        regression result(text)
+
+
+    """
+
     reg = mt.reg(
         dataframe, f"{dependent_variable}", get_covariates(degree), cluster="score"
     )
