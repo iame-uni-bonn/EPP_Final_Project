@@ -23,7 +23,7 @@ def get_covariates(degree):
         "streatlarge",
     ]
     if degree == 0:
-        base = base_variables[0:3]
+        base = base_variables[0:4]
         return base
     if degree == 1:
         return base_variables

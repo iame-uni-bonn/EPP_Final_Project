@@ -1,18 +1,13 @@
-import statsmodels.formula.api as sm
+import pytest
+
+from src.model_code.size_of_firms import get_covariates
 
 
-def get_covariates(degree):
-    """Collect the regressors (independent variables).
-
-    Args:
-        degree (integer): degree of polynomials
-
-    Returns:
-        regressors (list)
-
-    """
-
-    base_variables = [
+@pytest.fixture
+def setup_expected():
+    out = {}
+    out["degree_0"] = ["smallm", "largem", "treatsmall", "treatlarge"]
+    out["degree_1"] = [
         "smallm",
         "largem",
         "treatsmall",
@@ -22,41 +17,50 @@ def get_covariates(degree):
         "streatsmall",
         "streatlarge",
     ]
-    if degree == 0:
-        base = base_variables[0:3]
-        return base
-    if degree == 1:
-        return base_variables
-    else:
-        for i in range(2, degree + 1):
-            base_variables.append(f"ssmall{i}")
-            base_variables.append(f"slarge{i}")
-            base_variables.append(f"streatsmall{i}")
-            base_variables.append(f"streatlarge{i}")
-        return base_variables
+    out["degree_2"] = [
+        "smallm",
+        "largem",
+        "treatsmall",
+        "treatlarge",
+        "ssmall",
+        "slarge",
+        "streatsmall",
+        "streatlarge",
+        "ssmall2",
+        "slarge2",
+        "streatsmall2",
+        "streatlarge2",
+    ]
+    out["degree_3"] = [
+        "smallm",
+        "largem",
+        "treatsmall",
+        "treatlarge",
+        "ssmall",
+        "slarge",
+        "streatsmall",
+        "streatlarge",
+        "ssmall2",
+        "slarge2",
+        "streatsmall2",
+        "streatlarge2",
+        "ssmall3",
+        "slarge3",
+        "streatsmall3",
+        "streatlarge3",
+    ]
+    return out
 
 
-def regress(independent_Variable, dataframe, degree):
-    """Regress the dependent variables on covariates (independent variables).
-
-    Args:
-        dependent_variable (float): the independent variable
-        dataframe (pd.DataFrame): the dataframe of full sample, narrow window, and wide window
-        degree (integer): degree of polynomials
+@pytest.fixture
+def degree():
+    out = [0, 1, 2, 3]
+    return out
 
 
-    Returns:
-        regression result(text)
-
-
-    """
-
-    reg = (
-        sm.ols(
-            formula=f"{independent_Variable} ~ " + ("+").join(get_covariates(degree)),
-            data=dataframe,
-        )
-        .fit(cov_type="cluster", cov_kwds={"groups": dataframe["score"]}, use_t=True)
-        .summary()
-    )
-    return reg
+def test_get_covariates(setup_expected, degree):
+    expected_result = setup_expected
+    actual_result = {}
+    for i in degree:
+        actual_result[f"degree_{i}"] = get_covariates(i)
+    assert actual_result == expected_result
