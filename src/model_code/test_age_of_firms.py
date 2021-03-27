@@ -1,17 +1,13 @@
-import econtools.metrics as mt
+import pytest
+
+from src.model_code.age_of_firms import get_covariates
 
 
-def get_covariates(degree):
-    """Collect the regressors (independent variables).
-
-    Args:
-        degree (integer): degree of polynomials
-
-    Returns:
-        regressors (list)
-
-    """
-    base_variables = [
+@pytest.fixture
+def setup_expected():
+    out = {}
+    out["degree_0"] = ["fchighm", "fclowm", "treatfchigh", "treatfclow"]
+    out["degree_1"] = [
         "fchighm",
         "fclowm",
         "treatfchigh",
@@ -21,36 +17,50 @@ def get_covariates(degree):
         "streatfchigh",
         "streatfclow",
     ]
-    if degree == 0:
-        base = base_variables[0:4]
-        return base
-    if degree == 1:
-        return base_variables
-    else:
-        for i in range(2, degree + 1):
-            base_variables.append(f"sfchigh{i}")
-            base_variables.append(f"sfclow{i}")
-            base_variables.append(f"streatfchigh{i}")
-            base_variables.append(f"streatfclow{i}")
-        return base_variables
+    out["degree_2"] = [
+        "fchighm",
+        "fclowm",
+        "treatfchigh",
+        "treatfclow",
+        "sfchigh",
+        "sfclow",
+        "streatfchigh",
+        "streatfclow",
+        "sfchigh2",
+        "sfclow2",
+        "streatfchigh2",
+        "streatfclow2",
+    ]
+    out["degree_3"] = [
+        "fchighm",
+        "fclowm",
+        "treatfchigh",
+        "treatfclow",
+        "sfchigh",
+        "sfclow",
+        "streatfchigh",
+        "streatfclow",
+        "sfchigh2",
+        "sfclow2",
+        "streatfchigh2",
+        "streatfclow2",
+        "sfchigh3",
+        "sfclow3",
+        "streatfchigh3",
+        "streatfclow3",
+    ]
+    return out
 
 
-def regress(dependent_variable, dataframe, degree):
-    """Regress the dependent variables on covariates (independent variables).
-
-    Args:
-        dependent_variable (float): the independent variable
-        dataframe (pd.DataFrame): the dataframe of full sample, narrow window, and wide window
-        degree (integer): degree of polynomials
+@pytest.fixture
+def degree():
+    out = [0, 1, 2, 3]
+    return out
 
 
-    Returns:
-        regression result(text)
-
-
-    """
-
-    reg = mt.reg(
-        dataframe, f"{dependent_variable}", get_covariates(degree), cluster="score"
-    )
-    return reg
+def test_get_covariates(setup_expected, degree):
+    expected_result = setup_expected
+    actual_result = {}
+    for i in degree:
+        actual_result[f"degree_{i}"] = get_covariates(i)
+    assert actual_result == expected_result

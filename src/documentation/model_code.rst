@@ -11,6 +11,14 @@ For example, you may have a class that is used both in the :ref:`analysis` and t
 The ``Agent`` class of the Schelling example
 ============================================
 
-.. automodule:: src.model_code.agent
+.. automodule:: src.model_code.baseline
     :members:
 
+.. automodule:: src.model_code.size_of_firms
+    :members:
+
+.. automodule:: src.model_code.age_of_firms
+    :members:
+
+.. automodule:: src.model_code.coverage_ratio_of_firms
+    :members:
