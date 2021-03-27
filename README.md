@@ -1,6 +1,6 @@
 # EPP_Final_Project
 
-This repository contains the programming project using Python for the course "Effective Programming Practices for Economists". This project is the reproducible replication of [Bronzini, R., & Iachini, E. (2014). Are incentives for R&D effective? Evidence from a regression discontinuity approach. American Economic Journal: Economic Policy, 6(4), 100-134](https://github.com/amageh). we use the 
+This repository contains the programming project using Python for the course "Effective Programming Practices for Economists". This project is the reproducible replication of [Bronzini, R., & Iachini, E. (2014). Are incentives for R&D effective? Evidence from a regression discontinuity approach. American Economic Journal: Economic Policy, 6(4), 100-134](https://www.aeaweb.org/articles?id=10.1257/pol.6.4.100). we use the 
 
 Replication of Bronzini, R., & Iachini, E. (2014)
 
