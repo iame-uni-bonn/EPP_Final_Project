@@ -9,6 +9,6 @@ This paper investigates the effectiveness of a unique R&D subsidy program implem
 ### References
 
 ****Bronzini, R., & Iachini, E. (2014). Are incentives for R&D effective? Evidence from a regression discontinuity approach.**** American Economic Journal: Economic Policy, 6(4), 100-134. 
-Wooldridge, J. M. (2016). Introductory econometrics: A modern approach. Nelson Education.
+****Wooldridge, J. M. (2016).**** Introductory econometrics: A modern approach. Nelson Education.
 
 
