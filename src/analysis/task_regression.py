@@ -1,3 +1,13 @@
+"""  The aim is to regress the outcome variables on size related covariates.
+There are three different samples: 1) full sample: 357 firms, 2) wide_window: 171 firms
+with scores between (51,81) and 3) narrow_window: 115 firms with scores between (65,79).
+The significance of treat' shows that the funding program was effective for frims.
+
+The result of our replication can be compered to Table 3—Baseline Results, Effect
+of the Program on Investment, and Table 4—Baseline Results: Effect of the Program
+on Other Outcome Variables of the paper.
+
+"""
 import json
 import pickle
 
@@ -27,10 +37,14 @@ from src.model_code.baseline import regress
     ],
 )
 def task_regression(depends_on, produces):
-
+    # Read models saved in json files
     model = json.loads(depends_on["model"].read_text(encoding="utf-8"))
+    # full sample uses the all 357 firms
     full_sample = pd.read_csv(depends_on["data"])
+    # Wide window uses the all 171 firms scores of which are between (51,81)
     wide_window = full_sample[(full_sample.score > 51) & (full_sample.score < 81)]
+    #  narrow window uses the all 115 firms scores of which are between(65,79),which
+    #  is the closest version to a randomized experiment
     narrow_window = full_sample[(full_sample.score > 65) & (full_sample.score < 79)]
     sample = [full_sample, wide_window, narrow_window]
     dependent_variable = [

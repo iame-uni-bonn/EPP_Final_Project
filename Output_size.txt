@@ -4,7 +4,7 @@ Dep. Variable:               INVSALES   R-squared:                       0.048
 Model:                            OLS   Adj. R-squared:                  0.029
 Method:                 Least Squares   F-statistic:                     10.07
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.10e-08
-Time:                        20:51:17   Log-Likelihood:                 309.80
+Time:                        21:16:57   Log-Likelihood:                 309.80
 No. Observations:                 357   AIC:                            -603.6
 Df Residuals:                     349   BIC:                            -572.6
 Df Model:                           7
@@ -37,7 +37,7 @@ Dep. Variable:              INVTSALES   R-squared:                       0.024
 Model:                            OLS   Adj. R-squared:                  0.005
 Method:                 Least Squares   F-statistic:                     8.760
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.56e-07
-Time:                        20:51:17   Log-Likelihood:                 361.45
+Time:                        21:16:57   Log-Likelihood:                 361.45
 No. Observations:                 357   AIC:                            -706.9
 Df Residuals:                     349   BIC:                            -675.9
 Df Model:                           7
@@ -70,7 +70,7 @@ Dep. Variable:            INVINTSALES   R-squared:                       0.057
 Model:                            OLS   Adj. R-squared:                  0.038
 Method:                 Least Squares   F-statistic:                     3.277
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):            0.00415
-Time:                        20:51:17   Log-Likelihood:                 502.07
+Time:                        21:16:57   Log-Likelihood:                 502.07
 No. Observations:                 357   AIC:                            -988.1
 Df Residuals:                     349   BIC:                            -957.1
 Df Model:                           7
@@ -103,7 +103,7 @@ Dep. Variable:                   INVK   R-squared:                       0.060
 Model:                            OLS   Adj. R-squared:                  0.041
 Method:                 Least Squares   F-statistic:                     12.13
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.17e-09
-Time:                        20:51:17   Log-Likelihood:                -587.57
+Time:                        21:16:57   Log-Likelihood:                -587.57
 No. Observations:                 357   AIC:                             1191.
 Df Residuals:                     349   BIC:                             1222.
 Df Model:                           7
@@ -136,7 +136,7 @@ Dep. Variable:                   INVA   R-squared:                       0.043
 Model:                            OLS   Adj. R-squared:                  0.024
 Method:                 Least Squares   F-statistic:                     10.37
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.34e-08
-Time:                        20:51:17   Log-Likelihood:                 268.36
+Time:                        21:16:57   Log-Likelihood:                 268.36
 No. Observations:                 357   AIC:                            -520.7
 Df Residuals:                     349   BIC:                            -489.7
 Df Model:                           7
@@ -169,7 +169,7 @@ Dep. Variable:                LCSALES   R-squared:                       0.026
 Model:                            OLS   Adj. R-squared:                  0.006
 Method:                 Least Squares   F-statistic:                     175.8
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.43e-35
-Time:                        20:51:17   Log-Likelihood:                -116.25
+Time:                        21:16:57   Log-Likelihood:                -116.25
 No. Observations:                 357   AIC:                             248.5
 Df Residuals:                     349   BIC:                             279.5
 Df Model:                           7
@@ -202,7 +202,7 @@ Dep. Variable:                SCSALES   R-squared:                       0.073
 Model:                            OLS   Adj. R-squared:                  0.054
 Method:                 Least Squares   F-statistic:                     343.9
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           7.76e-43
-Time:                        20:51:17   Log-Likelihood:                -258.74
+Time:                        21:16:57   Log-Likelihood:                -258.74
 No. Observations:                 357   AIC:                             533.5
 Df Residuals:                     349   BIC:                             564.5
 Df Model:                           7
@@ -235,7 +235,7 @@ Dep. Variable:               INVSALES   R-squared:                       0.083
 Model:                            OLS   Adj. R-squared:                  0.044
 Method:                 Least Squares   F-statistic:                     4.600
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):            0.00168
-Time:                        20:51:17   Log-Likelihood:                 146.61
+Time:                        21:16:57   Log-Likelihood:                 146.61
 No. Observations:                 171   AIC:                            -277.2
 Df Residuals:                     163   BIC:                            -252.1
 Df Model:                           7
@@ -268,7 +268,7 @@ Dep. Variable:              INVTSALES   R-squared:                       0.075
 Model:                            OLS   Adj. R-squared:                  0.035
 Method:                 Least Squares   F-statistic:                     5.083
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           0.000887
-Time:                        20:51:17   Log-Likelihood:                 184.46
+Time:                        21:16:57   Log-Likelihood:                 184.46
 No. Observations:                 171   AIC:                            -352.9
 Df Residuals:                     163   BIC:                            -327.8
 Df Model:                           7
@@ -301,7 +301,7 @@ Dep. Variable:            INVINTSALES   R-squared:                       0.048
 Model:                            OLS   Adj. R-squared:                  0.007
 Method:                 Least Squares   F-statistic:                     5.652
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           0.000434
-Time:                        20:51:17   Log-Likelihood:                 237.52
+Time:                        21:16:57   Log-Likelihood:                 237.52
 No. Observations:                 171   AIC:                            -459.0
 Df Residuals:                     163   BIC:                            -433.9
 Df Model:                           7
@@ -334,7 +334,7 @@ Dep. Variable:                   INVK   R-squared:                       0.073
 Model:                            OLS   Adj. R-squared:                  0.033
 Method:                 Least Squares   F-statistic:                     12.04
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           9.78e-07
-Time:                        20:51:17   Log-Likelihood:                -313.32
+Time:                        21:16:57   Log-Likelihood:                -313.32
 No. Observations:                 171   AIC:                             642.6
 Df Residuals:                     163   BIC:                             667.8
 Df Model:                           7
@@ -367,7 +367,7 @@ Dep. Variable:                   INVA   R-squared:                       0.092
 Model:                            OLS   Adj. R-squared:                  0.053
 Method:                 Least Squares   F-statistic:                     10.86
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.48e-06
-Time:                        20:51:17   Log-Likelihood:                 125.51
+Time:                        21:16:57   Log-Likelihood:                 125.51
 No. Observations:                 171   AIC:                            -235.0
 Df Residuals:                     163   BIC:                            -209.9
 Df Model:                           7
@@ -400,7 +400,7 @@ Dep. Variable:                LCSALES   R-squared:                       0.101
 Model:                            OLS   Adj. R-squared:                  0.062
 Method:                 Least Squares   F-statistic:                     175.4
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.22e-19
-Time:                        20:51:17   Log-Likelihood:                -54.903
+Time:                        21:16:57   Log-Likelihood:                -54.903
 No. Observations:                 171   AIC:                             125.8
 Df Residuals:                     163   BIC:                             150.9
 Df Model:                           7
@@ -433,7 +433,7 @@ Dep. Variable:                SCSALES   R-squared:                       0.091
 Model:                            OLS   Adj. R-squared:                  0.052
 Method:                 Least Squares   F-statistic:                     191.2
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           8.05e-20
-Time:                        20:51:17   Log-Likelihood:                -123.23
+Time:                        21:16:57   Log-Likelihood:                -123.23
 No. Observations:                 171   AIC:                             262.5
 Df Residuals:                     163   BIC:                             287.6
 Df Model:                           7
@@ -466,7 +466,7 @@ Dep. Variable:               INVSALES   R-squared:                       0.096
 Model:                            OLS   Adj. R-squared:                  0.037
 Method:                 Least Squares   F-statistic:                     4.109
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):             0.0158
-Time:                        20:51:17   Log-Likelihood:                 106.42
+Time:                        21:16:57   Log-Likelihood:                 106.42
 No. Observations:                 115   AIC:                            -196.8
 Df Residuals:                     107   BIC:                            -174.9
 Df Model:                           7
@@ -499,7 +499,7 @@ Dep. Variable:              INVTSALES   R-squared:                       0.099
 Model:                            OLS   Adj. R-squared:                  0.040
 Method:                 Least Squares   F-statistic:                     13.43
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           8.13e-05
-Time:                        20:51:17   Log-Likelihood:                 140.10
+Time:                        21:16:57   Log-Likelihood:                 140.10
 No. Observations:                 115   AIC:                            -264.2
 Df Residuals:                     107   BIC:                            -242.2
 Df Model:                           7
@@ -532,7 +532,7 @@ Dep. Variable:            INVINTSALES   R-squared:                       0.078
 Model:                            OLS   Adj. R-squared:                  0.018
 Method:                 Least Squares   F-statistic:                     90.20
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.02e-09
-Time:                        20:51:17   Log-Likelihood:                 159.07
+Time:                        21:16:57   Log-Likelihood:                 159.07
 No. Observations:                 115   AIC:                            -302.1
 Df Residuals:                     107   BIC:                            -280.2
 Df Model:                           7
@@ -565,7 +565,7 @@ Dep. Variable:                   INVK   R-squared:                       0.107
 Model:                            OLS   Adj. R-squared:                  0.048
 Method:                 Least Squares   F-statistic:                     12.66
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           0.000110
-Time:                        20:51:17   Log-Likelihood:                -206.23
+Time:                        21:16:57   Log-Likelihood:                -206.23
 No. Observations:                 115   AIC:                             428.5
 Df Residuals:                     107   BIC:                             450.4
 Df Model:                           7
@@ -598,7 +598,7 @@ Dep. Variable:                   INVA   R-squared:                       0.104
 Model:                            OLS   Adj. R-squared:                  0.045
 Method:                 Least Squares   F-statistic:                     52.08
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           4.87e-08
-Time:                        20:51:17   Log-Likelihood:                 103.29
+Time:                        21:16:57   Log-Likelihood:                 103.29
 No. Observations:                 115   AIC:                            -190.6
 Df Residuals:                     107   BIC:                            -168.6
 Df Model:                           7
@@ -631,7 +631,7 @@ Dep. Variable:                LCSALES   R-squared:                       0.057
 Model:                            OLS   Adj. R-squared:                 -0.004
 Method:                 Least Squares   F-statistic:                     8762.
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.79e-21
-Time:                        20:51:17   Log-Likelihood:                -41.080
+Time:                        21:16:57   Log-Likelihood:                -41.080
 No. Observations:                 115   AIC:                             98.16
 Df Residuals:                     107   BIC:                             120.1
 Df Model:                           7
@@ -664,7 +664,7 @@ Dep. Variable:                SCSALES   R-squared:                       0.087
 Model:                            OLS   Adj. R-squared:                  0.027
 Method:                 Least Squares   F-statistic:                     409.2
 Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.60e-13
-Time:                        20:51:17   Log-Likelihood:                -92.266
+Time:                        21:16:57   Log-Likelihood:                -92.266
 No. Observations:                 115   AIC:                             200.5
 Df Residuals:                     107   BIC:                             222.5
 Df Model:                           7

@@ -27,9 +27,14 @@ from src.model_code.age_of_firms import regress
     ],
 )
 def task_regression(depends_on, produces):
+    # Read models saved in json files
     model = json.loads(depends_on["model"].read_text(encoding="utf-8"))
+    # full sample uses the all 357 firms
     full_sample = pd.read_csv(depends_on["data"])
+    # Wide window uses the all 171 firms scores of which are between (51,81)
     wide_window = full_sample[(full_sample.score > 51) & (full_sample.score < 81)]
+    #  narrow window uses the all 115 firms scores of which are between(65,79),which
+    #  is the closest version to a randomized experiment
     narrow_window = full_sample[(full_sample.score > 65) & (full_sample.score < 79)]
     sample = [full_sample, wide_window, narrow_window]
     dependent_variable = [
