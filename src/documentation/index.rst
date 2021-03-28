@@ -14,9 +14,7 @@ Welcome to the effectiveness of incentives for research and development project'
     original_data
     data_management
     analysis
-    final
     model_code
     model_specs
-    library
     paper
     references

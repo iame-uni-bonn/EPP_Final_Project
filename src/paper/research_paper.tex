@@ -1,4 +1,4 @@
-\documentclass[11pt, a4paper, leqno]{article}
+ \documentclass[11pt, a4paper, leqno]{article}
 \usepackage{a4wide}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -68,7 +68,7 @@
 \author{Solmaz Ahmadi}
 
 \date{
-    {\bf Preliminary -- please do not quote}
+    {\bf Thanks to GaudeckerEconProjectTemplates}
     \\[1ex]
     \today
 }
@@ -77,40 +77,72 @@
 
 
 \begin{abstract}
-    Some abstract here.
+    This paper investigates the effectiveness of a unique R&D subsidy program implemented in northern Italy.
+    The government asked firms to submit proposals for new projects, and among them, only projects with a
+    score above a certain threshold received the subsidy. They use a sharp regression discontinuity design
+    to compare the investment spending of subsidized firms with that of unsubsidized firms. They observe
+    evidence that for the whole sample there is no significant increase in investment. However, removing the
+    heterogeneity in the size of firms, their findings show public funds increase small firms' investments,
+    whereas larger firms were not affected by subsidy.
 \end{abstract}
 \clearpage
 
 \section{Introduction} % (fold)
 \label{sec:introduction}
-
-If you are using this template, please cite this item from the references: \citet{GaudeckerEconProjectTemplates}
-
-\citet{Schelling69} example in the code is taken from \citet{StachurskiSargent13}
-
-The decision rule of an agent is the following:
-\input{formulas/decision_rule}
-
-\begin{figure}
-    \caption{Segregation by cycle in the baseline \citet{Schelling69} model as in the \citet{StachurskiSargent13} example}
-
-    \includegraphics[width=\textwidth]{../../bld/figures/schelling_baseline}
-
-\end{figure}
-
-
-\begin{figure}
-    \caption{Segregation by cycle in the baseline \citet{Schelling69} model, limiting the number of potential moves per period to two}
-
-    \includegraphics[width=\textwidth]{../../bld/figures/schelling_max_moves_2}
-
-\end{figure}
+Bronzini and Lachini (2014) study the effects of a unique R\&D subsidy program
+executed in northern Italy on investment expenditures of firms.
+The public R\&D funding is a government policy that aims to trigger marginal projects,
+those that would not be carried out without the subventions. The economic rationale
+behind the R\&D subsidies is firstly to conquer market failure of knowledge as a
+public good the positive externalities of which cannot be fully internalized by the
+firm. Secondly, the government grants aid to overcome the firm's liquidity
+constraints. Firms were asked to present a proposal for their new projects and
+an independent technical committee scores them. Only firms whose scores were exceeded
+a specific threshold were awarded public grants. To estimate the causal impact of
+subsidies, Bronzini and Lachini (2014) apply a sharp regression discontinuity design
+(RDD) comparing the private investment spending of funded and nonfunded firms with
+scores close to the threshold. Among nonexperimental econometric methods, the
+regression discontinuity controls preferably for the endogeneity of treatment since
+it can be shown as a randomized experiment by arguing that the agents had been
+randomly drawn just below or just above the cutoff. The paper finds for the whole
+sample of firms, the investment expenditures do not increase significantly.
+since the overall impact hides the considerable heterogeneity in the program’s effect,
+Bronzini and Lachini (2014) divide the sample by small and large firms and demonstrate
+that although the subsidy did not affect large enterprises' investment spending,
+small companies raised their investments by roughly the amount of the grant they
+gained.
 
 % section introduction (end)
 
+\section{Clarification over results} % (fold)
+\label{sec:baseline}
+The replication of results of 'Table 3 —Baseline Results, Effect of the
+Program on Investment', and 'Table 4—Baseline Results: Effect of the Program
+on Other Outcome Variables' of paper 'Are Incentives for R&D Effective?
+Evidence from a Regression Discontinuity Approach' are in the file of 'result-
+baseline-model.pdf'
 
 
 
+% section baseline(end)
+
+\label{sec:size_of_firms}
+The replication of results of 'Table 5—Effect of the Program on Investment by
+Firm Size' of the paper 'Are Incentives for R&D Effective? Evidence from a
+Regression Discontinuity Approach' are in the file of 'result-size-model.pdf'
+
+
+
+% section size_of_firms(end)
+
+\label{sec:coverage_ratio_and_age}
+The replication of results of 'Table 6—Effect on Different Categories of Firms, Outcome Variable:
+Total Investment/Pre-Program Sales 'Are Incentives for R&D Effective? Evidence from a
+Regression Discontinuity Approach' are in the file of 'result-coverage-ratio-model.pdf'
+
+
+
+% section coverage_ratio_and_age(end)
 \setstretch{1}
 \printbibliography
 \setstretch{1.5}

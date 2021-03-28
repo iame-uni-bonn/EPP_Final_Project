@@ -5,9 +5,12 @@ channels:
 
 dependencies:
   - conda-build
+  - econtools>=0.3.2
   - ipykernel
   - jupyterlab
   - matplotlib
+  - numba
+  - numpy
   - pandas
   - pip
   - pytask>=0.0.11
@@ -16,8 +19,12 @@ dependencies:
 
   - pytest
   - pytest-cov
-  - python=3.9
+  - python=3.8.5
   - python-graphviz
+  - scipy>=1.6.1
+  - patsy>=0.5.1
+  - seaborn
+  - statsmodels>=0.12.2
 
 
   - virtualenv=20.0.33
@@ -25,7 +32,7 @@ dependencies:
   - pip:
 
     - pre-commit
-
+    - fpdf
     - sphinx
     - sphinx-autobuild
     - sphinx-rtd-theme
