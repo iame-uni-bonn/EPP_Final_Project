@@ -1,3 +1,8 @@
+""" The aim is to run a regression of 8 outcome variables on a set of covariates
+related to the age of firms. If the coefficient of , we could conclude that the age
+of the firm determines the effectiveness of incentives.
+
+"""
 import econtools.metrics as mt
 
 

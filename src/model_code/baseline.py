@@ -1,3 +1,8 @@
+""" The aim is to run a regression of 8 outcome variables on a set of covariates
+related to the treatment program. If the coefficient of , we could conclude that
+the incentives are effective for firms.
+
+"""
 import statsmodels.formula.api as sm
 
 

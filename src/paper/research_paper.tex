@@ -1,4 +1,4 @@
-\documentclass[11pt, a4paper, leqno]{article}
+ \documentclass[11pt, a4paper, leqno]{article}
 \usepackage{a4wide}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
@@ -68,7 +68,7 @@
 \author{Solmaz Ahmadi}
 
 \date{
-    {\bf Preliminary -- please do not quote}
+    {\bf }
     \\[1ex]
     \today
 }
@@ -77,12 +77,41 @@
 
 
 \begin{abstract}
-    Some abstract here.
+    This paper investigates the effectiveness of a unique R&D subsidy program implemented in northern Italy.
+    The government asked firms to submit proposals for new projects, and among them, only projects with a
+    score above a certain threshold received the subsidy. They use a sharp regression discontinuity design
+    to compare the investment spending of subsidized firms with that of unsubsidized firms. They observe
+    evidence that for the whole sample there is no significant increase in investment. However, removing the
+    heterogeneity in the size of firms, their findings show public funds increase small firms' investments,
+    whereas larger firms were not affected by subsidy.
 \end{abstract}
 \clearpage
 
 \section{Introduction} % (fold)
 \label{sec:introduction}
+Bronzini and Lachini (2014) study the effects of a unique R\&D subsidy program
+executed in northern Italy on investment expenditures of firms.
+The public R\&D funding is a government policy that aims to trigger marginal projects,
+those that would not be carried out without the subventions. The economic rationale
+behind the R\&D subsidies is firstly to conquer market failure of knowledge as a
+public good the positive externalities of which cannot be fully internalized by the
+firm. Secondly, the government grants aid to overcome the firm's liquidity
+constraints. Firms were asked to present a proposal for their new projects and
+an independent technical committee scores them. Only firms whose scores were exceeded
+a specific threshold were awarded public grants. To estimate the causal impact of
+subsidies, Bronzini and Lachini (2014) apply a sharp regression discontinuity design
+(RDD) comparing the private investment spending of funded and nonfunded firms with
+scores close to the threshold. Among nonexperimental econometric methods, the
+regression discontinuity controls preferably for the endogeneity of treatment since
+it can be shown as a randomized experiment by arguing that the agents had been
+randomly drawn just below or just above the cutoff. The paper finds for the whole
+sample of firms, the investment expenditures do not increase significantly.
+since the overall impact hides the considerable heterogeneity in the program’s effect,
+Bronzini and Lachini (2014) divide the sample by small and large firms and demonstrate
+that although the subsidy did not affect large enterprises' investment spending,
+small companies raised their investments by roughly the amount of the grant they
+gained.
+
 
 If you are using this template, please cite this item from the references: \citet{GaudeckerEconProjectTemplates}
 
@@ -94,7 +123,7 @@ The decision rule of an agent is the following:
 \begin{figure}
     \caption{Segregation by cycle in the baseline \citet{Schelling69} model as in the \citet{StachurskiSargent13} example}
 
-    \includegraphics[width=\textwidth]{../../bld/figures/schelling_baseline}
+    \includegraphics[width=\textwidth]{../../bld/analysis/baseline/regression_degree_0}
 
 \end{figure}
 
