@@ -32,7 +32,7 @@ dependencies:
   - pip:
 
     - pre-commit
-
+    - fpdf
     - sphinx
     - sphinx-autobuild
     - sphinx-rtd-theme
