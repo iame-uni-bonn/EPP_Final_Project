@@ -1,3 +1,6 @@
+"""The goal is to save the result of coverage_ratio_regression models as pdfs.
+
+"""
 import pickle
 
 import pytask
@@ -26,7 +29,7 @@ def get_text_result(regression_model):
     [
         (
             BLD / "analysis" / "size_small_large" / f"regression_{model_name}.pickle",
-            BLD / "figures" / "size_small_large" / f"regression_{model_name}.pdf",
+            BLD / "pdfs" / "size_small_large" / f"regression_{model_name}.pdf",
         )
         for model_name in ["degree_0", "degree_1", "degree_2", "degree_3"]
     ],

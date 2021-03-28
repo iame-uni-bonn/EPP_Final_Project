@@ -1,13 +1,15 @@
+"""The goal is to save the result of baseline_regression models as pdfs.
+
+"""
 import pickle
 
 import pytask
 from fpdf import FPDF
 
 from src.config import BLD
-from src.config import ROOT
 
 
-def get_text_result(regression_model):
+def _get_text_result(regression_model):
 
     model = []
     with open(regression_model, "rb") as pkl:
@@ -27,13 +29,13 @@ def get_text_result(regression_model):
     [
         (
             BLD / "analysis" / "baseline" / f"regression_{model_name}.pickle",
-            ROOT / "baseline" / f"regression_{model_name}.pdf",
+            BLD / "pdfs" / "baseline" / f"regression_{model_name}.pdf",
         )
         for model_name in ["degree_0", "degree_1", "degree_2", "degree_3"]
     ],
 )
 def task_result_pdf(depends_on, produces):
-    get_text_result(depends_on)
+    _get_text_result(depends_on)
 
     pdf = FPDF()
     pdf.add_page()
