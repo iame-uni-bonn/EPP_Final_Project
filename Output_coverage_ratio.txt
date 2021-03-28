@@ -1,757 +1,666 @@
                             OLS Regression Results
 ==============================================================================
-Dep. Variable:               INVSALES   R-squared:                       0.022
-Model:                            OLS   Adj. R-squared:                 -0.009
-Method:                 Least Squares   F-statistic:                     2.316
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):             0.0209
-Time:                        21:35:48   Log-Likelihood:                 305.11
-No. Observations:                 357   AIC:                            -586.2
-Df Residuals:                     345   BIC:                            -539.7
-Df Model:                          11
+Dep. Variable:               INVSALES   R-squared:                       0.020
+Model:                            OLS   Adj. R-squared:                 -0.003
+Method:                 Least Squares   F-statistic:                     1.786
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):              0.101
+Time:                        21:35:43   Log-Likelihood:                 304.64
+No. Observations:                 357   AIC:                            -591.3
+Df Residuals:                     348   BIC:                            -556.4
+Df Model:                           8
 Covariance Type:              cluster
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-Intercept     -0.0011      0.033     -0.032      0.975      -0.068       0.066
-treatl         0.0760      0.039      1.939      0.058      -0.003       0.155
-treath         0.0517      0.045      1.157      0.252      -0.038       0.141
-s             -0.0056      0.008     -0.700      0.487      -0.021       0.010
-streatl       -0.0017      0.014     -0.117      0.907      -0.030       0.027
-streath        0.0010      0.013      0.080      0.937      -0.025       0.027
-s2            -0.0002      0.000     -0.431      0.669      -0.001       0.001
-streatl2       0.0007      0.002      0.492      0.625      -0.002       0.004
-streath2       0.0011      0.001      0.951      0.346      -0.001       0.003
-s3          -1.87e-06   6.02e-06     -0.311      0.757   -1.39e-05    1.02e-05
-streatl3   -1.578e-05   4.61e-05     -0.342      0.734      -0.000    7.67e-05
-streath3   -3.542e-05   3.08e-05     -1.151      0.255   -9.71e-05    2.63e-05
+Intercept      0.0063      0.021      0.303      0.763      -0.035       0.048
+treatl         0.0611      0.028      2.153      0.036       0.004       0.118
+treath         0.0295      0.033      0.884      0.381      -0.037       0.097
+s             -0.0035      0.003     -1.139      0.260      -0.010       0.003
+streatl        0.0009      0.005      0.171      0.865      -0.009       0.011
+streath        0.0085      0.006      1.432      0.158      -0.003       0.020
+s2         -5.694e-05   6.33e-05     -0.899      0.373      -0.000    7.01e-05
+streatl2    5.707e-05      0.000      0.267      0.791      -0.000       0.000
+streath2      -0.0002      0.000     -1.052      0.297      -0.001       0.000
 ==============================================================================
-Omnibus:                       60.812   Durbin-Watson:                   1.816
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               96.044
-Skew:                           1.029   Prob(JB):                     1.39e-21
-Kurtosis:                       4.492   Cond. No.                     1.96e+05
+Omnibus:                       61.682   Durbin-Watson:                   1.815
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               98.656
+Skew:                           1.034   Prob(JB):                     3.78e-22
+Kurtosis:                       4.535   Cond. No.                     3.36e+03
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 1.96e+05. This might indicate that there are
+[2] The condition number is large, 3.36e+03. This might indicate that there are
 strong multicollinearity or other numerical problems.                            OLS Regression Results
 ==============================================================================
 Dep. Variable:              INVTSALES   R-squared:                       0.012
-Model:                            OLS   Adj. R-squared:                 -0.019
-Method:                 Least Squares   F-statistic:                     2.186
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):             0.0292
-Time:                        21:35:48   Log-Likelihood:                 359.27
-No. Observations:                 357   AIC:                            -694.5
-Df Residuals:                     345   BIC:                            -648.0
-Df Model:                          11
+Model:                            OLS   Adj. R-squared:                 -0.011
+Method:                 Least Squares   F-statistic:                     1.833
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):             0.0913
+Time:                        21:35:43   Log-Likelihood:                 359.15
+No. Observations:                 357   AIC:                            -700.3
+Df Residuals:                     348   BIC:                            -665.4
+Df Model:                           8
 Covariance Type:              cluster
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-Intercept      0.0111      0.034      0.329      0.744      -0.056       0.079
-treatl         0.0467      0.036      1.306      0.197      -0.025       0.118
-treath         0.0037      0.034      0.107      0.915      -0.065       0.073
-s             -0.0006      0.007     -0.087      0.931      -0.015       0.014
-streatl       -0.0075      0.012     -0.623      0.536      -0.032       0.017
-streath        0.0035      0.009      0.382      0.704      -0.015       0.022
-s2          8.301e-07      0.000      0.002      0.998      -0.001       0.001
-streatl2       0.0007      0.001      0.541      0.591      -0.002       0.003
-streath2      -0.0001      0.001     -0.184      0.855      -0.002       0.001
-s3         -8.221e-08   5.21e-06     -0.016      0.987   -1.05e-05    1.04e-05
-streatl3   -1.837e-05   3.98e-05     -0.461      0.646   -9.82e-05    6.15e-05
-streath3   -8.505e-09   2.24e-05     -0.000      1.000    -4.5e-05    4.49e-05
+Intercept      0.0114      0.021      0.533      0.596      -0.031       0.054
+treatl         0.0384      0.024      1.578      0.120      -0.010       0.087
+treath         0.0033      0.022      0.149      0.882      -0.041       0.048
+s             -0.0005      0.003     -0.200      0.842      -0.006       0.005
+streatl       -0.0027      0.004     -0.708      0.482      -0.011       0.005
+streath        0.0034      0.004      0.884      0.380      -0.004       0.011
+s2          6.318e-06   5.55e-05      0.114      0.910      -0.000       0.000
+streatl2       0.0001      0.000      0.728      0.470      -0.000       0.000
+streath2      -0.0002      0.000     -0.958      0.342      -0.000       0.000
 ==============================================================================
-Omnibus:                       83.805   Durbin-Watson:                   1.931
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              404.234
-Skew:                           0.894   Prob(JB):                     1.67e-88
-Kurtosis:                       7.897   Cond. No.                     1.96e+05
+Omnibus:                       84.042   Durbin-Watson:                   1.932
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              403.287
+Skew:                           0.899   Prob(JB):                     2.68e-88
+Kurtosis:                       7.887   Cond. No.                     3.36e+03
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 1.96e+05. This might indicate that there are
+[2] The condition number is large, 3.36e+03. This might indicate that there are
 strong multicollinearity or other numerical problems.                            OLS Regression Results
 ==============================================================================
-Dep. Variable:            INVINTSALES   R-squared:                       0.033
+Dep. Variable:            INVINTSALES   R-squared:                       0.027
+Model:                            OLS   Adj. R-squared:                  0.005
+Method:                 Least Squares   F-statistic:                     3.804
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):            0.00136
+Time:                        21:35:43   Log-Likelihood:                 496.50
+No. Observations:                 357   AIC:                            -975.0
+Df Residuals:                     348   BIC:                            -940.1
+Df Model:                           8
+Covariance Type:              cluster
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -0.0051      0.008     -0.622      0.536      -0.021       0.011
+treatl         0.0227      0.013      1.808      0.076      -0.002       0.048
+treath         0.0262      0.026      0.997      0.323      -0.027       0.079
+s             -0.0029      0.002     -1.892      0.064      -0.006       0.000
+streatl        0.0036      0.003      1.333      0.188      -0.002       0.009
+streath        0.0050      0.005      1.018      0.313      -0.005       0.015
+s2         -6.326e-05   3.22e-05     -1.966      0.055      -0.000    1.29e-06
+streatl2   -5.333e-05      0.000     -0.511      0.612      -0.000       0.000
+streath2   -8.724e-05      0.000     -0.448      0.656      -0.000       0.000
+==============================================================================
+Omnibus:                      173.690   Durbin-Watson:                   1.726
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1137.702
+Skew:                           1.952   Prob(JB):                    8.94e-248
+Kurtosis:                      10.826   Cond. No.                     3.36e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
+[2] The condition number is large, 3.36e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.                            OLS Regression Results
+==============================================================================
+Dep. Variable:                   INVK   R-squared:                       0.026
+Model:                            OLS   Adj. R-squared:                  0.004
+Method:                 Least Squares   F-statistic:                     2.909
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):            0.00914
+Time:                        21:35:43   Log-Likelihood:                -593.89
+No. Observations:                 357   AIC:                             1206.
+Df Residuals:                     348   BIC:                             1241.
+Df Model:                           8
+Covariance Type:              cluster
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.1670      0.173      0.963      0.340      -0.181       0.515
+treatl         0.7198      0.518      1.390      0.170      -0.319       1.758
+treath         0.5990      0.261      2.295      0.026       0.075       1.123
+s             -0.0359      0.020     -1.813      0.076      -0.076       0.004
+streatl       -0.0235      0.096     -0.245      0.807      -0.216       0.169
+streath        0.0457      0.036      1.287      0.204      -0.026       0.117
+s2            -0.0008      0.000     -2.066      0.044      -0.002   -2.48e-05
+streatl2       0.0023      0.004      0.597      0.553      -0.005       0.010
+streath2      -0.0014      0.001     -1.044      0.301      -0.004       0.001
+==============================================================================
+Omnibus:                      345.743   Durbin-Watson:                   2.051
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             9036.461
+Skew:                           4.206   Prob(JB):                         0.00
+Kurtosis:                      26.167   Cond. No.                     3.36e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
+[2] The condition number is large, 3.36e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.                            OLS Regression Results
+==============================================================================
+Dep. Variable:                   INVA   R-squared:                       0.022
+Model:                            OLS   Adj. R-squared:                 -0.000
+Method:                 Least Squares   F-statistic:                     1.659
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):              0.131
+Time:                        21:35:43   Log-Likelihood:                 264.48
+No. Observations:                 357   AIC:                            -511.0
+Df Residuals:                     348   BIC:                            -476.1
+Df Model:                           8
+Covariance Type:              cluster
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -0.0071      0.021     -0.335      0.739      -0.050       0.036
+treatl         0.0711      0.031      2.301      0.025       0.009       0.133
+treath         0.0519      0.033      1.568      0.123      -0.015       0.118
+s             -0.0061      0.003     -1.804      0.077      -0.013       0.001
+streatl        0.0072      0.006      1.176      0.245      -0.005       0.019
+streath        0.0101      0.006      1.631      0.109      -0.002       0.022
+s2            -0.0001   7.08e-05     -1.716      0.092      -0.000    2.05e-05
+streatl2   -5.035e-05      0.000     -0.201      0.842      -0.001       0.000
+streath2      -0.0001      0.000     -0.531      0.598      -0.001       0.000
+==============================================================================
+Omnibus:                       97.800   Durbin-Watson:                   1.833
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              242.610
+Skew:                           1.327   Prob(JB):                     2.08e-53
+Kurtosis:                       6.044   Cond. No.                     3.36e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
+[2] The condition number is large, 3.36e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.                            OLS Regression Results
+==============================================================================
+Dep. Variable:                LCSALES   R-squared:                       0.032
+Model:                            OLS   Adj. R-squared:                  0.010
+Method:                 Least Squares   F-statistic:                     2.087
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):             0.0535
+Time:                        21:35:43   Log-Likelihood:                -115.07
+No. Observations:                 357   AIC:                             248.1
+Df Residuals:                     348   BIC:                             283.0
+Df Model:                           8
+Covariance Type:              cluster
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.8487      0.095      8.959      0.000       0.659       1.039
+treatl        -0.0713      0.130     -0.550      0.584      -0.331       0.189
+treath        -0.2394      0.112     -2.139      0.037      -0.464      -0.015
+s              0.0179      0.013      1.406      0.166      -0.008       0.043
+streatl       -0.0478      0.021     -2.242      0.029      -0.091      -0.005
+streath        0.0140      0.019      0.749      0.457      -0.023       0.052
+s2             0.0004      0.000      1.279      0.207      -0.000       0.001
+streatl2       0.0011      0.001      1.369      0.177      -0.000       0.003
+streath2      -0.0021      0.001     -2.802      0.007      -0.004      -0.001
+==============================================================================
+Omnibus:                       90.586   Durbin-Watson:                   2.032
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              233.317
+Skew:                           1.210   Prob(JB):                     2.17e-51
+Kurtosis:                       6.135   Cond. No.                     3.36e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
+[2] The condition number is large, 3.36e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.                            OLS Regression Results
+==============================================================================
+Dep. Variable:                SCSALES   R-squared:                       0.035
+Model:                            OLS   Adj. R-squared:                  0.013
+Method:                 Least Squares   F-statistic:                     3.504
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):            0.00256
+Time:                        21:35:43   Log-Likelihood:                -265.89
+No. Observations:                 357   AIC:                             549.8
+Df Residuals:                     348   BIC:                             584.7
+Df Model:                           8
+Covariance Type:              cluster
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      1.0220      0.082     12.448      0.000       0.857       1.187
+treatl         0.0198      0.161      0.123      0.903      -0.304       0.344
+treath        -0.0436      0.121     -0.361      0.720      -0.286       0.199
+s              0.0033      0.013      0.260      0.796      -0.022       0.029
+streatl       -0.0076      0.032     -0.240      0.811      -0.071       0.056
+streath       -0.0167      0.022     -0.760      0.451      -0.061       0.027
+s2             0.0002      0.000      0.757      0.452      -0.000       0.001
+streatl2       0.0001      0.001      0.103      0.918      -0.003       0.003
+streath2    5.336e-05      0.001      0.065      0.948      -0.002       0.002
+==============================================================================
+Omnibus:                      173.781   Durbin-Watson:                   1.733
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1155.965
+Skew:                           1.947   Prob(JB):                    9.67e-252
+Kurtosis:                      10.909   Cond. No.                     3.36e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
+[2] The condition number is large, 3.36e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.                            OLS Regression Results
+==============================================================================
+Dep. Variable:               INVSALES   R-squared:                       0.059
+Model:                            OLS   Adj. R-squared:                  0.013
+Method:                 Least Squares   F-statistic:                     23.23
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.63e-09
+Time:                        21:35:43   Log-Likelihood:                 144.44
+No. Observations:                 171   AIC:                            -270.9
+Df Residuals:                     162   BIC:                            -242.6
+Df Model:                           8
+Covariance Type:              cluster
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -0.0219      0.040     -0.553      0.585      -0.104       0.060
+treatl         0.1392      0.050      2.783      0.010       0.036       0.242
+treath         0.0905      0.050      1.804      0.084      -0.013       0.194
+s             -0.0115      0.009     -1.291      0.209      -0.030       0.007
+streatl       -0.0568      0.026     -2.152      0.042      -0.111      -0.002
+streath       -0.0184      0.021     -0.890      0.383      -0.061       0.024
+s2            -0.0005      0.000     -1.145      0.263      -0.001       0.000
+streatl2       0.0139      0.004      3.334      0.003       0.005       0.022
+streath2       0.0059      0.004      1.610      0.121      -0.002       0.013
+==============================================================================
+Omnibus:                       28.443   Durbin-Watson:                   1.888
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               38.693
+Skew:                           0.973   Prob(JB):                     3.96e-09
+Kurtosis:                       4.281   Cond. No.                         888.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)                            OLS Regression Results
+==============================================================================
+Dep. Variable:              INVTSALES   R-squared:                       0.042
+Model:                            OLS   Adj. R-squared:                 -0.005
+Method:                 Least Squares   F-statistic:                     26.33
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           4.42e-10
+Time:                        21:35:43   Log-Likelihood:                 181.46
+No. Observations:                 171   AIC:                            -344.9
+Df Residuals:                     162   BIC:                            -316.7
+Df Model:                           8
+Covariance Type:              cluster
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.0086      0.037      0.232      0.818      -0.067       0.085
+treatl         0.0744      0.041      1.797      0.085      -0.011       0.160
+treath         0.0102      0.037      0.273      0.787      -0.067       0.087
+s             -0.0014      0.008     -0.171      0.866      -0.018       0.015
+streatl       -0.0456      0.019     -2.360      0.027      -0.085      -0.006
+streath       -0.0026      0.010     -0.268      0.791      -0.023       0.017
+s2         -3.962e-05      0.000     -0.114      0.910      -0.001       0.001
+streatl2       0.0093      0.003      3.045      0.006       0.003       0.016
+streath2       0.0014      0.001      1.214      0.237      -0.001       0.004
+==============================================================================
+Omnibus:                       58.976   Durbin-Watson:                   2.018
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              165.576
+Skew:                           1.417   Prob(JB):                     1.11e-36
+Kurtosis:                       6.900   Cond. No.                         888.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)                            OLS Regression Results
+==============================================================================
+Dep. Variable:            INVINTSALES   R-squared:                       0.048
+Model:                            OLS   Adj. R-squared:                  0.001
+Method:                 Least Squares   F-statistic:                     379.5
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.41e-23
+Time:                        21:35:43   Log-Likelihood:                 237.56
+No. Observations:                 171   AIC:                            -457.1
+Df Residuals:                     162   BIC:                            -428.9
+Df Model:                           8
+Covariance Type:              cluster
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -0.0304      0.017     -1.797      0.085      -0.065       0.005
+treatl         0.0648      0.021      3.068      0.005       0.021       0.108
+treath         0.0803      0.031      2.591      0.016       0.016       0.144
+s             -0.0101      0.005     -1.960      0.062      -0.021       0.001
+streatl       -0.0112      0.011     -1.059      0.300      -0.033       0.011
+streath       -0.0158      0.020     -0.809      0.426      -0.056       0.025
+s2            -0.0004      0.000     -1.824      0.081      -0.001    5.43e-05
+streatl2       0.0046      0.002      2.930      0.007       0.001       0.008
+streath2       0.0045      0.004      1.144      0.264      -0.004       0.013
+==============================================================================
+Omnibus:                       78.842   Durbin-Watson:                   1.627
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              408.466
+Skew:                           1.652   Prob(JB):                     2.01e-89
+Kurtosis:                       9.813   Cond. No.                         888.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)                            OLS Regression Results
+==============================================================================
+Dep. Variable:                   INVK   R-squared:                       0.058
+Model:                            OLS   Adj. R-squared:                  0.011
+Method:                 Least Squares   F-statistic:                     46.94
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           8.47e-13
+Time:                        21:35:43   Log-Likelihood:                -314.70
+No. Observations:                 171   AIC:                             647.4
+Df Residuals:                     162   BIC:                             675.7
+Df Model:                           8
+Covariance Type:              cluster
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -0.3110      0.218     -1.428      0.166      -0.761       0.139
+treatl         2.2242      0.793      2.806      0.010       0.589       3.860
+treath         1.0405      0.242      4.298      0.000       0.541       1.540
+s             -0.1691      0.072     -2.343      0.028      -0.318      -0.020
+streatl       -0.9841      0.614     -1.602      0.122      -2.252       0.284
+streath        0.0878      0.281      0.313      0.757      -0.492       0.668
+s2            -0.0072      0.004     -2.051      0.051      -0.014    4.35e-05
+streatl2       0.2053      0.103      1.993      0.058      -0.007       0.418
+streath2       0.0431      0.051      0.840      0.409      -0.063       0.149
+==============================================================================
+Omnibus:                      164.563   Durbin-Watson:                   2.006
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2392.314
+Skew:                           3.746   Prob(JB):                         0.00
+Kurtosis:                      19.723   Cond. No.                         888.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)                            OLS Regression Results
+==============================================================================
+Dep. Variable:                   INVA   R-squared:                       0.085
+Model:                            OLS   Adj. R-squared:                  0.040
+Method:                 Least Squares   F-statistic:                     11.85
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.13e-06
+Time:                        21:35:43   Log-Likelihood:                 124.84
+No. Observations:                 171   AIC:                            -231.7
+Df Residuals:                     162   BIC:                            -203.4
+Df Model:                           8
+Covariance Type:              cluster
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept     -0.0599      0.042     -1.429      0.166      -0.146       0.027
+treatl         0.1869      0.044      4.219      0.000       0.095       0.278
+treath         0.1343      0.048      2.814      0.010       0.036       0.233
+s             -0.0209      0.009     -2.226      0.036      -0.040      -0.002
+streatl       -0.0651      0.021     -3.068      0.005      -0.109      -0.021
+streath       -0.0037      0.023     -0.162      0.873      -0.051       0.044
+s2            -0.0008      0.000     -1.968      0.061      -0.002    4.09e-05
+streatl2       0.0188      0.003      5.602      0.000       0.012       0.026
+streath2       0.0053      0.004      1.239      0.227      -0.004       0.014
+==============================================================================
+Omnibus:                       31.520   Durbin-Watson:                   2.024
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               45.834
+Skew:                           1.021   Prob(JB):                     1.12e-10
+Kurtosis:                       4.506   Cond. No.                         888.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)                            OLS Regression Results
+==============================================================================
+Dep. Variable:                LCSALES   R-squared:                       0.119
+Model:                            OLS   Adj. R-squared:                  0.076
+Method:                 Least Squares   F-statistic:                 5.980e+04
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.15e-49
+Time:                        21:35:43   Log-Likelihood:                -53.147
+No. Observations:                 171   AIC:                             124.3
+Df Residuals:                     162   BIC:                             152.6
+Df Model:                           8
+Covariance Type:              cluster
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.8468      0.135      6.279      0.000       0.568       1.125
+treatl         0.0669      0.187      0.358      0.724      -0.319       0.453
+treath        -0.2979      0.138     -2.163      0.041      -0.582      -0.014
+s              0.0071      0.029      0.243      0.810      -0.053       0.068
+streatl       -0.2365      0.117     -2.027      0.054      -0.477       0.004
+streath        0.0010      0.046      0.022      0.983      -0.094       0.096
+s2            -0.0009      0.001     -0.688      0.498      -0.003       0.002
+streatl2       0.0451      0.019      2.417      0.024       0.007       0.084
+streath2       0.0134      0.007      1.789      0.086      -0.002       0.029
+==============================================================================
+Omnibus:                       45.579   Durbin-Watson:                   2.308
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               90.502
+Skew:                           1.236   Prob(JB):                     2.23e-20
+Kurtosis:                       5.568   Cond. No.                         888.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)                            OLS Regression Results
+==============================================================================
+Dep. Variable:                SCSALES   R-squared:                       0.038
+Model:                            OLS   Adj. R-squared:                 -0.010
+Method:                 Least Squares   F-statistic:                     8.541
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.91e-05
+Time:                        21:35:43   Log-Likelihood:                -128.14
+No. Observations:                 171   AIC:                             274.3
+Df Residuals:                     162   BIC:                             302.6
+Df Model:                           8
+Covariance Type:              cluster
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.8825      0.090      9.754      0.000       0.696       1.069
+treatl         0.4912      0.246      1.998      0.057      -0.016       0.999
+treath        -0.0058      0.097     -0.060      0.953      -0.206       0.195
+s             -0.0423      0.027     -1.560      0.132      -0.098       0.014
+streatl       -0.2922      0.151     -1.936      0.065      -0.604       0.019
+streath        0.0610      0.086      0.713      0.483      -0.116       0.238
+s2            -0.0025      0.001     -1.812      0.082      -0.005       0.000
+streatl2       0.0569      0.023      2.458      0.022       0.009       0.105
+streath2       0.0071      0.017      0.408      0.687      -0.029       0.043
+==============================================================================
+Omnibus:                      132.138   Durbin-Watson:                   1.967
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1545.691
+Skew:                           2.774   Prob(JB):                         0.00
+Kurtosis:                      16.644   Cond. No.                         888.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)                            OLS Regression Results
+==============================================================================
+Dep. Variable:               INVSALES   R-squared:                       0.101
+Model:                            OLS   Adj. R-squared:                  0.033
+Method:                 Least Squares   F-statistic:                     26.15
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           3.17e-06
+Time:                        21:35:44   Log-Likelihood:                 106.71
+No. Observations:                 115   AIC:                            -195.4
+Df Residuals:                     106   BIC:                            -170.7
+Df Model:                           8
+Covariance Type:              cluster
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.1561      0.030      5.285      0.000       0.092       0.220
+treatl        -0.0536      0.037     -1.464      0.169      -0.133       0.026
+treath        -0.0925      0.037     -2.524      0.027      -0.172      -0.013
+s              0.0646      0.012      5.516      0.000       0.039       0.090
+streatl       -0.1119      0.037     -3.044      0.010      -0.192      -0.032
+streath       -0.0460      0.081     -0.570      0.579      -0.222       0.130
+s2             0.0063      0.001      6.083      0.000       0.004       0.009
+streatl2       0.0033      0.011      0.318      0.756      -0.020       0.026
+streath2      -0.0205      0.028     -0.721      0.485      -0.083       0.041
+==============================================================================
+Omnibus:                       12.085   Durbin-Watson:                   1.992
+Prob(Omnibus):                  0.002   Jarque-Bera (JB):               13.037
+Skew:                           0.687   Prob(JB):                      0.00148
+Kurtosis:                       3.913   Cond. No.                         393.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)                            OLS Regression Results
+==============================================================================
+Dep. Variable:              INVTSALES   R-squared:                       0.073
 Model:                            OLS   Adj. R-squared:                  0.003
-Method:                 Least Squares   F-statistic:                     3.465
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):            0.00110
-Time:                        21:35:48   Log-Likelihood:                 497.63
-No. Observations:                 357   AIC:                            -971.3
-Df Residuals:                     345   BIC:                            -924.7
-Df Model:                          11
+Method:                 Least Squares   F-statistic:                     34.51
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           6.87e-07
+Time:                        21:35:44   Log-Likelihood:                 138.46
+No. Observations:                 115   AIC:                            -258.9
+Df Residuals:                     106   BIC:                            -234.2
+Df Model:                           8
 Covariance Type:              cluster
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-Intercept     -0.0121      0.017     -0.735      0.465      -0.045       0.021
-treatl         0.0294      0.020      1.473      0.147      -0.011       0.069
-treath         0.0480      0.032      1.491      0.142      -0.017       0.113
-s             -0.0049      0.005     -0.936      0.354      -0.016       0.006
-streatl        0.0058      0.007      0.833      0.408      -0.008       0.020
-streath       -0.0025      0.010     -0.241      0.810      -0.023       0.018
-s2            -0.0002      0.000     -0.590      0.558      -0.001       0.000
-streatl2     4.06e-05      0.001      0.068      0.946      -0.001       0.001
-streath2       0.0012      0.001      1.333      0.188      -0.001       0.003
-s3         -1.787e-06   4.55e-06     -0.393      0.696   -1.09e-05    7.34e-06
-streatl3    2.588e-06    1.6e-05      0.161      0.872   -2.96e-05    3.48e-05
-streath3   -3.541e-05    2.4e-05     -1.473      0.147   -8.36e-05    1.28e-05
+Intercept      0.1137      0.063      1.804      0.096      -0.024       0.251
+treatl        -0.0437      0.064     -0.686      0.506      -0.182       0.095
+treath        -0.0992      0.063     -1.574      0.141      -0.237       0.038
+s              0.0424      0.027      1.548      0.148      -0.017       0.102
+streatl       -0.0717      0.031     -2.298      0.040      -0.140      -0.004
+streath       -0.0252      0.028     -0.903      0.384      -0.086       0.036
+s2             0.0037      0.003      1.344      0.204      -0.002       0.010
+streatl2       0.0025      0.005      0.475      0.643      -0.009       0.014
+streath2      -0.0095      0.003     -2.828      0.015      -0.017      -0.002
 ==============================================================================
-Omnibus:                      172.334   Durbin-Watson:                   1.735
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1103.654
-Skew:                           1.942   Prob(JB):                    2.21e-240
-Kurtosis:                      10.688   Cond. No.                     1.96e+05
+Omnibus:                       21.460   Durbin-Watson:                   2.014
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               34.633
+Skew:                           0.853   Prob(JB):                     3.02e-08
+Kurtosis:                       5.078   Cond. No.                         393.
 ==============================================================================
 
 Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 1.96e+05. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
+[1] Standard Errors are robust to cluster correlation (cluster)                            OLS Regression Results
 ==============================================================================
-Dep. Variable:                   INVK   R-squared:                       0.033
-Model:                            OLS   Adj. R-squared:                  0.002
-Method:                 Least Squares   F-statistic:                     6.969
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           4.02e-07
-Time:                        21:35:48   Log-Likelihood:                -592.65
-No. Observations:                 357   AIC:                             1209.
-Df Residuals:                     345   BIC:                             1256.
-Df Model:                          11
+Dep. Variable:            INVINTSALES   R-squared:                       0.083
+Model:                            OLS   Adj. R-squared:                  0.014
+Method:                 Least Squares   F-statistic:                     2.162
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):              0.120
+Time:                        21:35:44   Log-Likelihood:                 159.41
+No. Observations:                 115   AIC:                            -300.8
+Df Residuals:                     106   BIC:                            -276.1
+Df Model:                           8
 Covariance Type:              cluster
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-Intercept     -0.0933      0.174     -0.538      0.593      -0.441       0.255
-treatl         1.3045      0.718      1.818      0.075      -0.135       2.744
-treath         0.8827      0.211      4.192      0.000       0.460       1.305
-s             -0.1100      0.058     -1.896      0.063      -0.226       0.006
-streatl       -0.1480      0.252     -0.587      0.559      -0.654       0.357
-streath        0.1048      0.104      1.009      0.318      -0.104       0.313
-s2            -0.0053      0.003     -1.518      0.135      -0.012       0.002
-streatl2       0.0306      0.024      1.264      0.212      -0.018       0.079
-streath2       0.0048      0.012      0.411      0.683      -0.019       0.028
-s3         -6.602e-05   5.11e-05     -1.292      0.202      -0.000    3.65e-05
-streatl3      -0.0007      0.001     -1.014      0.315      -0.002       0.001
-streath3    7.025e-06      0.000      0.020      0.984      -0.001       0.001
+Intercept      0.0423      0.040      1.051      0.314      -0.045       0.130
+treatl        -0.0099      0.042     -0.236      0.817      -0.102       0.082
+treath         0.0068      0.045      0.151      0.883      -0.091       0.105
+s              0.0222      0.019      1.191      0.257      -0.018       0.063
+streatl       -0.0403      0.027     -1.474      0.166      -0.100       0.019
+streath       -0.0208      0.077     -0.271      0.791      -0.188       0.147
+s2             0.0026      0.002      1.290      0.222      -0.002       0.007
+streatl2       0.0008      0.006      0.132      0.897      -0.013       0.015
+streath2      -0.0110      0.027     -0.414      0.686      -0.069       0.047
 ==============================================================================
-Omnibus:                      338.829   Durbin-Watson:                   2.071
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):             8297.261
-Skew:                           4.102   Prob(JB):                         0.00
-Kurtosis:                      25.147   Cond. No.                     1.96e+05
+Omnibus:                       59.599   Durbin-Watson:                   1.755
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              322.962
+Skew:                           1.649   Prob(JB):                     7.41e-71
+Kurtosis:                      10.518   Cond. No.                         393.
 ==============================================================================
 
 Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 1.96e+05. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
+[1] Standard Errors are robust to cluster correlation (cluster)                            OLS Regression Results
 ==============================================================================
-Dep. Variable:                   INVA   R-squared:                       0.028
-Model:                            OLS   Adj. R-squared:                 -0.003
-Method:                 Least Squares   F-statistic:                     1.624
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):              0.119
-Time:                        21:35:48   Log-Likelihood:                 265.43
-No. Observations:                 357   AIC:                            -506.9
-Df Residuals:                     345   BIC:                            -460.3
-Df Model:                          11
+Dep. Variable:                   INVK   R-squared:                       0.114
+Model:                            OLS   Adj. R-squared:                  0.047
+Method:                 Least Squares   F-statistic:                     235.7
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           9.78e-12
+Time:                        21:35:44   Log-Likelihood:                -205.76
+No. Observations:                 115   AIC:                             429.5
+Df Residuals:                     106   BIC:                             454.2
+Df Model:                           8
 Covariance Type:              cluster
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-Intercept     -0.0317      0.034     -0.938      0.352      -0.100       0.036
-treatl         0.1030      0.043      2.393      0.020       0.017       0.189
-treath         0.0973      0.042      2.295      0.026       0.012       0.182
-s             -0.0131      0.008     -1.646      0.106      -0.029       0.003
-streatl        0.0097      0.017      0.567      0.573      -0.025       0.044
-streath        0.0037      0.012      0.296      0.768      -0.021       0.029
-s2            -0.0005      0.000     -1.276      0.208      -0.001       0.000
-streatl2       0.0009      0.002      0.488      0.628      -0.003       0.005
-streath2       0.0019      0.001      1.674      0.100      -0.000       0.004
-s3         -6.238e-06   6.03e-06     -1.034      0.306   -1.83e-05    5.86e-06
-streatl3   -1.073e-05    5.6e-05     -0.192      0.849      -0.000       0.000
-streath3   -4.607e-05   3.38e-05     -1.364      0.178      -0.000    2.17e-05
+Intercept      0.0861      0.543      0.159      0.877      -1.096       1.268
+treatl         2.6711      0.553      4.829      0.000       1.466       3.876
+treath         0.6559      0.543      1.208      0.250      -0.527       1.839
+s              0.0128      0.237      0.054      0.958      -0.504       0.529
+streatl       -3.0264      0.294    -10.294      0.000      -3.667      -2.386
+streath        0.3472      0.252      1.376      0.194      -0.203       0.897
+s2             0.0108      0.020      0.529      0.606      -0.034       0.055
+streatl2       0.7909      0.056     14.118      0.000       0.669       0.913
+streath2      -0.1933      0.037     -5.226      0.000      -0.274      -0.113
 ==============================================================================
-Omnibus:                       95.928   Durbin-Watson:                   1.837
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              231.095
-Skew:                           1.315   Prob(JB):                     6.58e-51
-Kurtosis:                       5.936   Cond. No.                     1.96e+05
+Omnibus:                      123.123   Durbin-Watson:                   2.155
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1931.004
+Skew:                           3.745   Prob(JB):                         0.00
+Kurtosis:                      21.625   Cond. No.                         393.
 ==============================================================================
 
 Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 1.96e+05. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
+[1] Standard Errors are robust to cluster correlation (cluster)                            OLS Regression Results
 ==============================================================================
-Dep. Variable:                LCSALES   R-squared:                       0.051
-Model:                            OLS   Adj. R-squared:                  0.021
-Method:                 Least Squares   F-statistic:                     3.332
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):            0.00154
-Time:                        21:35:48   Log-Likelihood:                -111.60
-No. Observations:                 357   AIC:                             247.2
-Df Residuals:                     345   BIC:                             293.7
-Df Model:                          11
+Dep. Variable:                   INVA   R-squared:                       0.130
+Model:                            OLS   Adj. R-squared:                  0.064
+Method:                 Least Squares   F-statistic:                     58.36
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           3.50e-08
+Time:                        21:35:44   Log-Likelihood:                 104.98
+No. Observations:                 115   AIC:                            -192.0
+Df Residuals:                     106   BIC:                            -167.3
+Df Model:                           8
 Covariance Type:              cluster
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-Intercept      1.0570      0.172      6.155      0.000       0.713       1.401
-treatl        -0.2828      0.213     -1.326      0.190      -0.710       0.145
-treath        -0.5085      0.178     -2.849      0.006      -0.866      -0.150
-s              0.0772      0.039      1.957      0.056      -0.002       0.156
-streatl       -0.1052      0.066     -1.589      0.118      -0.238       0.028
-streath       -0.0062      0.047     -0.132      0.895      -0.100       0.088
-s2             0.0039      0.002      1.741      0.087      -0.001       0.008
-streatl2      -0.0027      0.006     -0.446      0.657      -0.015       0.009
-streath2      -0.0104      0.004     -2.713      0.009      -0.018      -0.003
-s3          5.283e-05   3.27e-05      1.617      0.112   -1.27e-05       0.000
-streatl3   -4.553e-05      0.000     -0.276      0.784      -0.000       0.000
-streath3       0.0001      0.000      0.927      0.358      -0.000       0.000
+Intercept      0.1414      0.027      5.226      0.000       0.082       0.200
+treatl        -0.0137      0.030     -0.461      0.653      -0.079       0.051
+treath        -0.0662      0.032     -2.047      0.063      -0.137       0.004
+s              0.0666      0.010      6.355      0.000       0.044       0.089
+streatl       -0.1669      0.023     -7.408      0.000      -0.216      -0.118
+streath       -0.0612      0.066     -0.926      0.373      -0.205       0.083
+s2             0.0071      0.001      7.790      0.000       0.005       0.009
+streatl2       0.0187      0.006      3.097      0.009       0.006       0.032
+streath2      -0.0175      0.023     -0.751      0.467      -0.068       0.033
 ==============================================================================
-Omnibus:                       82.942   Durbin-Watson:                   2.046
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              187.812
-Skew:                           1.162   Prob(JB):                     1.65e-41
-Kurtosis:                       5.687   Cond. No.                     1.96e+05
+Omnibus:                        7.417   Durbin-Watson:                   2.049
+Prob(Omnibus):                  0.025   Jarque-Bera (JB):                7.271
+Skew:                           0.489   Prob(JB):                       0.0264
+Kurtosis:                       3.748   Cond. No.                         393.
 ==============================================================================
 
 Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 1.96e+05. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
+[1] Standard Errors are robust to cluster correlation (cluster)                            OLS Regression Results
+==============================================================================
+Dep. Variable:                LCSALES   R-squared:                       0.108
+Model:                            OLS   Adj. R-squared:                  0.040
+Method:                 Least Squares   F-statistic:                     195.0
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           3.01e-11
+Time:                        21:35:44   Log-Likelihood:                -37.936
+No. Observations:                 115   AIC:                             93.87
+Df Residuals:                     106   BIC:                             118.6
+Df Model:                           8
+Covariance Type:              cluster
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+Intercept      0.5319      0.121      4.379      0.001       0.267       0.796
+treatl         0.4403      0.138      3.183      0.008       0.139       0.742
+treath         0.0203      0.124      0.163      0.873      -0.250       0.291
+s             -0.1467      0.066     -2.207      0.048      -0.291      -0.002
+streatl       -0.2854      0.126     -2.271      0.042      -0.559      -0.012
+streath        0.1064      0.116      0.917      0.377      -0.146       0.359
+s2            -0.0170      0.007     -2.393      0.034      -0.032      -0.002
+streatl2       0.1458      0.033      4.449      0.001       0.074       0.217
+streath2       0.0502      0.035      1.452      0.172      -0.025       0.126
+==============================================================================
+Omnibus:                       22.973   Durbin-Watson:                   2.232
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               34.003
+Skew:                           0.962   Prob(JB):                     4.13e-08
+Kurtosis:                       4.842   Cond. No.                         393.
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)                            OLS Regression Results
 ==============================================================================
 Dep. Variable:                SCSALES   R-squared:                       0.036
-Model:                            OLS   Adj. R-squared:                  0.005
-Method:                 Least Squares   F-statistic:                     2.291
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):             0.0223
-Time:                        21:35:48   Log-Likelihood:                -265.70
-No. Observations:                 357   AIC:                             555.4
-Df Residuals:                     345   BIC:                             601.9
-Df Model:                          11
+Model:                            OLS   Adj. R-squared:                 -0.037
+Method:                 Least Squares   F-statistic:                     929.7
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.73e-15
+Time:                        21:35:44   Log-Likelihood:                -95.396
+No. Observations:                 115   AIC:                             208.8
+Df Residuals:                     106   BIC:                             233.5
+Df Model:                           8
 Covariance Type:              cluster
 ==============================================================================
                  coef    std err          t      P>|t|      [0.025      0.975]
 ------------------------------------------------------------------------------
-Intercept      1.0578      0.124      8.517      0.000       0.809       1.307
-treatl        -0.0111      0.214     -0.052      0.959      -0.441       0.418
-treath        -0.1287      0.148     -0.870      0.388      -0.425       0.168
-s              0.0135      0.036      0.376      0.709      -0.058       0.085
-streatl       -0.0207      0.071     -0.291      0.772      -0.163       0.122
-streath        0.0049      0.045      0.109      0.914      -0.086       0.096
-s2             0.0008      0.002      0.369      0.713      -0.004       0.005
-streatl2      -0.0001      0.007     -0.016      0.987      -0.014       0.014
-streath2      -0.0044      0.004     -1.195      0.237      -0.012       0.003
-s3           9.06e-06   3.37e-05      0.269      0.789   -5.85e-05    7.66e-05
-streatl3   -2.015e-05      0.000     -0.102      0.919      -0.000       0.000
-streath3       0.0001   9.97e-05      1.157      0.252   -8.46e-05       0.000
+Intercept      0.8751      0.192      4.555      0.001       0.457       1.294
+treatl         0.3641      0.240      1.520      0.154      -0.158       0.886
+treath         0.0306      0.197      0.155      0.879      -0.398       0.460
+s             -0.0568      0.094     -0.602      0.558      -0.262       0.149
+streatl        0.0152      0.249      0.061      0.952      -0.527       0.557
+streath       -0.1326      0.184     -0.719      0.486      -0.535       0.269
+s2            -0.0052      0.008     -0.621      0.546      -0.023       0.013
+streatl2      -0.0344      0.070     -0.495      0.630      -0.186       0.117
+streath2       0.0888      0.057      1.556      0.146      -0.036       0.213
 ==============================================================================
-Omnibus:                      174.369   Durbin-Watson:                   1.726
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1173.912
-Skew:                           1.950   Prob(JB):                    1.23e-255
-Kurtosis:                      10.982   Cond. No.                     1.96e+05
+Omnibus:                      104.093   Durbin-Watson:                   1.984
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1187.836
+Skew:                           3.037   Prob(JB):                    1.16e-258
+Kurtosis:                      17.526   Cond. No.                         393.
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 1.96e+05. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
-==============================================================================
-Dep. Variable:               INVSALES   R-squared:                       0.102
-Model:                            OLS   Adj. R-squared:                  0.040
-Method:                 Least Squares   F-statistic:                     1587.
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           4.61e-31
-Time:                        21:35:48   Log-Likelihood:                 148.44
-No. Observations:                 171   AIC:                            -272.9
-Df Residuals:                     159   BIC:                            -235.2
-Df Model:                          11
-Covariance Type:              cluster
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept      0.1023      0.033      3.098      0.005       0.034       0.170
-treatl        -0.0154      0.034     -0.453      0.655      -0.086       0.055
-treath        -0.0393      0.039     -1.018      0.319      -0.119       0.040
-s              0.0429      0.013      3.219      0.004       0.015       0.070
-streatl       -0.0277      0.032     -0.867      0.394      -0.094       0.038
-streath       -0.0288      0.103     -0.279      0.783      -0.242       0.184
-s2             0.0056      0.001      3.944      0.001       0.003       0.009
-streatl2      -0.0346      0.016     -2.226      0.036      -0.067      -0.003
-streath2      -0.0247      0.056     -0.443      0.661      -0.140       0.090
-s3             0.0002   4.47e-05      4.122      0.000     9.2e-05       0.000
-streatl3       0.0053      0.002      2.522      0.019       0.001       0.010
-streath3       0.0031      0.007      0.433      0.669      -0.012       0.018
-==============================================================================
-Omnibus:                       22.581   Durbin-Watson:                   1.910
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               28.328
-Skew:                           0.838   Prob(JB):                     7.06e-07
-Kurtosis:                       4.079   Cond. No.                     2.56e+04
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 2.56e+04. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
-==============================================================================
-Dep. Variable:              INVTSALES   R-squared:                       0.079
-Model:                            OLS   Adj. R-squared:                  0.015
-Method:                 Least Squares   F-statistic:                     8956.
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           4.51e-40
-Time:                        21:35:48   Log-Likelihood:                 184.78
-No. Observations:                 171   AIC:                            -345.6
-Df Residuals:                     159   BIC:                            -307.9
-Df Model:                          11
-Covariance Type:              cluster
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept      0.0962      0.049      1.980      0.059      -0.004       0.197
-treatl        -0.0379      0.049     -0.776      0.446      -0.139       0.063
-treath        -0.0823      0.049     -1.694      0.103      -0.183       0.018
-s              0.0371      0.019      1.977      0.060      -0.002       0.076
-streatl       -0.0163      0.026     -0.620      0.541      -0.071       0.038
-streath       -0.0026      0.019     -0.135      0.894      -0.042       0.037
-s2             0.0042      0.002      2.228      0.036       0.000       0.008
-streatl2      -0.0294      0.012     -2.495      0.020      -0.054      -0.005
-streath2      -0.0243      0.003     -8.070      0.000      -0.031      -0.018
-s3             0.0001   5.52e-05      2.357      0.027    1.62e-05       0.000
-streatl3       0.0043      0.002      2.576      0.017       0.001       0.008
-streath3       0.0027      0.000      9.186      0.000       0.002       0.003
-==============================================================================
-Omnibus:                       51.463   Durbin-Watson:                   2.010
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              127.510
-Skew:                           1.279   Prob(JB):                     2.05e-28
-Kurtosis:                       6.370   Cond. No.                     2.56e+04
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 2.56e+04. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
-==============================================================================
-Dep. Variable:            INVINTSALES   R-squared:                       0.058
-Model:                            OLS   Adj. R-squared:                 -0.008
-Method:                 Least Squares   F-statistic:                 1.520e+04
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           7.91e-43
-Time:                        21:35:48   Log-Likelihood:                 238.43
-No. Observations:                 171   AIC:                            -452.9
-Df Residuals:                     159   BIC:                            -415.2
-Df Model:                          11
-Covariance Type:              cluster
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept      0.0061      0.027      0.227      0.823      -0.049       0.062
-treatl         0.0225      0.028      0.800      0.432      -0.036       0.081
-treath         0.0431      0.033      1.302      0.205      -0.025       0.111
-s              0.0059      0.010      0.569      0.574      -0.015       0.027
-streatl       -0.0114      0.021     -0.535      0.598      -0.055       0.033
-streath       -0.0262      0.099     -0.265      0.793      -0.230       0.178
-s2             0.0014      0.001      1.389      0.178      -0.001       0.003
-streatl2      -0.0052      0.008     -0.617      0.543      -0.022       0.012
-streath2      -0.0004      0.054     -0.008      0.994      -0.112       0.111
-s3          5.421e-05   2.78e-05      1.949      0.063   -3.18e-06       0.000
-streatl3       0.0010      0.001      1.001      0.327      -0.001       0.003
-streath3       0.0004      0.007      0.053      0.958      -0.014       0.015
-==============================================================================
-Omnibus:                       77.923   Durbin-Watson:                   1.650
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              405.102
-Skew:                           1.626   Prob(JB):                     1.08e-88
-Kurtosis:                       9.803   Cond. No.                     2.56e+04
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 2.56e+04. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
-==============================================================================
-Dep. Variable:                   INVK   R-squared:                       0.090
-Model:                            OLS   Adj. R-squared:                  0.027
-Method:                 Least Squares   F-statistic:                 2.664e+04
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           9.41e-46
-Time:                        21:35:48   Log-Likelihood:                -311.73
-No. Observations:                 171   AIC:                             647.5
-Df Residuals:                     159   BIC:                             685.2
-Df Model:                          11
-Covariance Type:              cluster
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept      0.0510      0.534      0.095      0.925      -1.052       1.154
-treatl         2.7264      0.541      5.036      0.000       1.609       3.844
-treath         0.7554      0.544      1.389      0.177      -0.367       1.878
-s             -0.0105      0.248     -0.042      0.967      -0.522       0.501
-streatl       -3.5152      0.326    -10.786      0.000      -4.188      -2.843
-streath       -0.6827      0.701     -0.974      0.340      -2.130       0.764
-s2             0.0105      0.024      0.433      0.669      -0.039       0.060
-streatl2       1.3925      0.135     10.288      0.000       1.113       1.672
-streath2       0.3668      0.426      0.861      0.398      -0.513       1.247
-s3             0.0005      0.001      0.822      0.419      -0.001       0.002
-streatl3      -0.1573      0.019     -8.208      0.000      -0.197      -0.118
-streath3      -0.0459      0.060     -0.764      0.452      -0.170       0.078
-==============================================================================
-Omnibus:                      154.886   Durbin-Watson:                   2.054
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2036.191
-Skew:                           3.460   Prob(JB):                         0.00
-Kurtosis:                      18.424   Cond. No.                     2.56e+04
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 2.56e+04. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
-==============================================================================
-Dep. Variable:                   INVA   R-squared:                       0.114
-Model:                            OLS   Adj. R-squared:                  0.052
-Method:                 Least Squares   F-statistic:                     103.5
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           5.40e-17
-Time:                        21:35:48   Log-Likelihood:                 127.54
-No. Observations:                 171   AIC:                            -231.1
-Df Residuals:                     159   BIC:                            -193.4
-Df Model:                          11
-Covariance Type:              cluster
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept      0.0671      0.036      1.871      0.074      -0.007       0.141
-treatl         0.0462      0.037      1.262      0.219      -0.029       0.122
-treath         0.0100      0.041      0.247      0.807      -0.074       0.094
-s              0.0347      0.015      2.357      0.027       0.004       0.065
-streatl       -0.0829      0.031     -2.715      0.012      -0.146      -0.020
-streath       -0.0808      0.095     -0.854      0.402      -0.276       0.115
-s2             0.0054      0.002      3.359      0.003       0.002       0.009
-streatl2      -0.0066      0.017     -0.398      0.694      -0.041       0.028
-streath2       0.0111      0.053      0.209      0.837      -0.099       0.121
-s3             0.0002   5.08e-05      3.711      0.001    8.36e-05       0.000
-streatl3       0.0023      0.002      0.968      0.343      -0.003       0.007
-streath3      -0.0018      0.007     -0.255      0.801      -0.016       0.013
-==============================================================================
-Omnibus:                       29.556   Durbin-Watson:                   2.040
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               42.022
-Skew:                           0.974   Prob(JB):                     7.50e-10
-Kurtosis:                       4.450   Cond. No.                     2.56e+04
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 2.56e+04. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
-==============================================================================
-Dep. Variable:                LCSALES   R-squared:                       0.124
-Model:                            OLS   Adj. R-squared:                  0.063
-Method:                 Least Squares   F-statistic:                     6515.
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.05e-38
-Time:                        21:35:48   Log-Likelihood:                -52.663
-No. Observations:                 171   AIC:                             129.3
-Df Residuals:                     159   BIC:                             167.0
-Df Model:                          11
-Covariance Type:              cluster
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept      0.6919      0.142      4.883      0.000       0.399       0.984
-treatl         0.2287      0.185      1.237      0.228      -0.153       0.610
-treath        -0.1477      0.143     -1.036      0.311      -0.442       0.147
-s             -0.0607      0.052     -1.170      0.253      -0.168       0.046
-streatl       -0.1877      0.240     -0.782      0.442      -0.683       0.308
-streath        0.1061      0.138      0.771      0.448      -0.178       0.390
-s2            -0.0084      0.005     -1.685      0.105      -0.019       0.002
-streatl2       0.0624      0.130      0.480      0.635      -0.206       0.330
-streath2       0.0002      0.067      0.003      0.998      -0.138       0.138
-s3            -0.0002      0.000     -1.597      0.123      -0.001    6.73e-05
-streatl3      -0.0010      0.018     -0.059      0.954      -0.037       0.035
-streath3       0.0030      0.008      0.357      0.725      -0.014       0.020
-==============================================================================
-Omnibus:                       43.340   Durbin-Watson:                   2.311
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               84.397
-Skew:                           1.184   Prob(JB):                     4.71e-19
-Kurtosis:                       5.498   Cond. No.                     2.56e+04
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 2.56e+04. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
-==============================================================================
-Dep. Variable:                SCSALES   R-squared:                       0.049
-Model:                            OLS   Adj. R-squared:                 -0.017
-Method:                 Least Squares   F-statistic:                     5288.
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.50e-37
-Time:                        21:35:48   Log-Likelihood:                -127.16
-No. Observations:                 171   AIC:                             278.3
-Df Residuals:                     159   BIC:                             316.0
-Df Model:                          11
-Covariance Type:              cluster
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept      0.8947      0.171      5.220      0.000       0.541       1.248
-treatl         0.3089      0.199      1.549      0.134      -0.103       0.720
-treath        -0.0016      0.174     -0.009      0.993      -0.360       0.357
-s             -0.0369      0.085     -0.433      0.669      -0.213       0.139
-streatl        0.1694      0.226      0.751      0.460      -0.296       0.635
-streath       -0.0750      0.242     -0.309      0.760      -0.575       0.425
-s2            -0.0019      0.009     -0.199      0.844      -0.021       0.018
-streatl2      -0.1808      0.095     -1.909      0.068      -0.376       0.015
-streath2       0.0794      0.119      0.666      0.512      -0.167       0.325
-s3          1.814e-05      0.000      0.064      0.949      -0.001       0.001
-streatl3       0.0308      0.011      2.748      0.011       0.008       0.054
-streath3      -0.0097      0.015     -0.647      0.524      -0.041       0.021
-==============================================================================
-Omnibus:                      130.930   Durbin-Watson:                   1.943
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1544.782
-Skew:                           2.732   Prob(JB):                         0.00
-Kurtosis:                      16.673   Cond. No.                     2.56e+04
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 2.56e+04. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
-==============================================================================
-Dep. Variable:               INVSALES   R-squared:                       0.192
-Model:                            OLS   Adj. R-squared:                  0.105
-Method:                 Least Squares   F-statistic:                 6.680e+06
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           5.75e-38
-Time:                        21:35:48   Log-Likelihood:                 112.85
-No. Observations:                 115   AIC:                            -201.7
-Df Residuals:                     103   BIC:                            -168.8
-Df Model:                          11
-Covariance Type:              cluster
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept      0.1153      0.061      1.886      0.084      -0.018       0.249
-treatl        -0.0318      0.061     -0.519      0.613      -0.165       0.101
-treath        -0.0676      0.061     -1.105      0.291      -0.201       0.066
-s              0.0333      0.041      0.822      0.427      -0.055       0.122
-streatl        0.0597      0.041      1.473      0.167      -0.029       0.148
-streath        0.6559      0.041     16.192      0.000       0.568       0.744
-s2            -0.0005      0.008     -0.062      0.952      -0.019       0.018
-streatl2      -0.1162      0.008    -13.978      0.000      -0.134      -0.098
-streath2      -0.5999      0.008    -72.188      0.000      -0.618      -0.582
-s3            -0.0004      0.001     -0.838      0.418      -0.002       0.001
-streatl3       0.0281      0.001     53.439      0.000       0.027       0.029
-streath3       0.1226      0.001    233.466      0.000       0.121       0.124
-==============================================================================
-Omnibus:                        8.600   Durbin-Watson:                   1.872
-Prob(Omnibus):                  0.014   Jarque-Bera (JB):                8.500
-Skew:                           0.562   Prob(JB):                       0.0143
-Kurtosis:                       3.715   Cond. No.                     6.98e+03
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 6.98e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
-==============================================================================
-Dep. Variable:              INVTSALES   R-squared:                       0.080
-Model:                            OLS   Adj. R-squared:                 -0.018
-Method:                 Least Squares   F-statistic:                 1.775e+04
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.63e-22
-Time:                        21:35:48   Log-Likelihood:                 138.90
-No. Observations:                 115   AIC:                            -253.8
-Df Residuals:                     103   BIC:                            -220.9
-Df Model:                          11
-Covariance Type:              cluster
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept      0.1711      0.148      1.154      0.271      -0.152       0.494
-treatl        -0.1091      0.148     -0.736      0.476      -0.432       0.214
-treath        -0.1577      0.148     -1.063      0.309      -0.481       0.165
-s              0.0865      0.096      0.897      0.387      -0.124       0.297
-streatl       -0.0558      0.096     -0.579      0.574      -0.266       0.154
-streath       -0.0246      0.096     -0.256      0.803      -0.235       0.185
-s2             0.0133      0.019      0.693      0.502      -0.029       0.055
-streatl2      -0.0612      0.019     -3.173      0.008      -0.103      -0.019
-streath2      -0.0582      0.019     -3.018      0.011      -0.100      -0.016
-s3             0.0006      0.001      0.516      0.615      -0.002       0.003
-streatl3       0.0112      0.001      9.327      0.000       0.009       0.014
-streath3       0.0075      0.001      6.260      0.000       0.005       0.010
-==============================================================================
-Omnibus:                       19.209   Durbin-Watson:                   1.979
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               28.274
-Skew:                           0.811   Prob(JB):                     7.25e-07
-Kurtosis:                       4.809   Cond. No.                     6.98e+03
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 6.98e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
-==============================================================================
-Dep. Variable:            INVINTSALES   R-squared:                       0.281
-Model:                            OLS   Adj. R-squared:                  0.205
-Method:                 Least Squares   F-statistic:                 1.970e+06
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           8.73e-35
-Time:                        21:35:48   Log-Likelihood:                 173.40
-No. Observations:                 115   AIC:                            -322.8
-Df Residuals:                     103   BIC:                            -289.9
-Df Model:                          11
-Covariance Type:              cluster
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept     -0.0558      0.089     -0.630      0.540      -0.249       0.137
-treatl         0.0774      0.089      0.874      0.399      -0.115       0.270
-treath         0.0901      0.089      1.018      0.329      -0.103       0.283
-s             -0.0532      0.057     -0.925      0.373      -0.178       0.072
-streatl        0.1154      0.057      2.007      0.068      -0.010       0.241
-streath        0.6805      0.057     11.835      0.000       0.555       0.806
-s2            -0.0139      0.011     -1.214      0.248      -0.039       0.011
-streatl2      -0.0550      0.011     -4.816      0.000      -0.080      -0.030
-streath2      -0.5417      0.011    -47.436      0.000      -0.567      -0.517
-s3            -0.0011      0.001     -1.497      0.160      -0.003       0.000
-streatl3       0.0169      0.001     23.811      0.000       0.015       0.018
-streath3       0.1151      0.001    162.469      0.000       0.114       0.117
-==============================================================================
-Omnibus:                        8.598   Durbin-Watson:                   1.713
-Prob(Omnibus):                  0.014   Jarque-Bera (JB):               11.622
-Skew:                           0.379   Prob(JB):                      0.00299
-Kurtosis:                       4.361   Cond. No.                     6.98e+03
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 6.98e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
-==============================================================================
-Dep. Variable:                   INVK   R-squared:                       0.123
-Model:                            OLS   Adj. R-squared:                  0.029
-Method:                 Least Squares   F-statistic:                -3.156e+13
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):               1.00
-Time:                        21:35:48   Log-Likelihood:                -205.20
-No. Observations:                 115   AIC:                             434.4
-Df Residuals:                     103   BIC:                             467.3
-Df Model:                          11
-Covariance Type:              cluster
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept      1.8916      1.515      1.249      0.236      -1.409       5.192
-treatl         0.9599      1.515      0.634      0.538      -2.341       4.261
-treath        -1.1669      1.515     -0.770      0.456      -4.468       2.134
-s              1.4005      1.223      1.145      0.274      -1.264       4.065
-streatl       -5.1142      1.223     -4.183      0.001      -7.778      -2.450
-streath       -0.3127      1.223     -0.256      0.802      -2.977       2.351
-s2             0.3134      0.283      1.108      0.290      -0.303       0.930
-streatl2       1.1188      0.283      3.955      0.002       0.503       1.735
-streath2      -1.1321      0.283     -4.002      0.002      -1.748      -0.516
-s3             0.0195      0.019      1.052      0.313      -0.021       0.060
-streatl3      -0.1574      0.019     -8.491      0.000      -0.198      -0.117
-streath3       0.1131      0.019      6.102      0.000       0.073       0.153
-==============================================================================
-Omnibus:                      119.281   Durbin-Watson:                   2.217
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1729.102
-Skew:                           3.604   Prob(JB):                         0.00
-Kurtosis:                      20.575   Cond. No.                     6.98e+03
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 6.98e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
-==============================================================================
-Dep. Variable:                   INVA   R-squared:                       0.184
-Model:                            OLS   Adj. R-squared:                  0.097
-Method:                 Least Squares   F-statistic:                 3.697e+06
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.00e-36
-Time:                        21:35:48   Log-Likelihood:                 108.68
-No. Observations:                 115   AIC:                            -193.4
-Df Residuals:                     103   BIC:                            -160.4
-Df Model:                          11
-Covariance Type:              cluster
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept      0.0972      0.054      1.815      0.095      -0.020       0.214
-treatl         0.0196      0.054      0.367      0.720      -0.097       0.136
-treath        -0.0350      0.054     -0.653      0.526      -0.152       0.082
-s              0.0327      0.038      0.861      0.406      -0.050       0.115
-streatl       -0.0527      0.038     -1.388      0.190      -0.135       0.030
-streath        0.5208      0.038     13.721      0.000       0.438       0.604
-s2            -0.0003      0.008     -0.036      0.972      -0.018       0.017
-streatl2      -0.0461      0.008     -5.695      0.000      -0.064      -0.028
-streath2      -0.4892      0.008    -60.408      0.000      -0.507      -0.472
-s3            -0.0005      0.001     -0.916      0.378      -0.002       0.001
-streatl3       0.0163      0.001     31.254      0.000       0.015       0.017
-streath3       0.1003      0.001    192.620      0.000       0.099       0.101
-==============================================================================
-Omnibus:                        8.862   Durbin-Watson:                   1.963
-Prob(Omnibus):                  0.012   Jarque-Bera (JB):                9.842
-Skew:                           0.492   Prob(JB):                      0.00729
-Kurtosis:                       4.043   Cond. No.                     6.98e+03
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 6.98e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
-==============================================================================
-Dep. Variable:                LCSALES   R-squared:                       0.142
-Model:                            OLS   Adj. R-squared:                  0.051
-Method:                 Least Squares   F-statistic:                 8.926e+04
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.01e-26
-Time:                        21:35:48   Log-Likelihood:                -35.661
-No. Observations:                 115   AIC:                             95.32
-Df Residuals:                     103   BIC:                             128.3
-Df Model:                          11
-Covariance Type:              cluster
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept     -0.1277      0.393     -0.325      0.751      -0.984       0.728
-treatl         1.1577      0.393      2.947      0.012       0.302       2.014
-treath         0.6609      0.393      1.682      0.118      -0.195       1.517
-s             -0.6536      0.313     -2.088      0.059      -1.336       0.028
-streatl       -0.2078      0.313     -0.664      0.519      -0.890       0.474
-streath        1.4121      0.313      4.511      0.001       0.730       2.094
-s2            -0.1275      0.065     -1.950      0.075      -0.270       0.015
-streatl2       0.6430      0.065      9.835      0.000       0.501       0.785
-streath2      -0.5375      0.065     -8.221      0.000      -0.680      -0.395
-s3            -0.0071      0.004     -1.789      0.099      -0.016       0.002
-streatl3      -0.0774      0.004    -19.444      0.000      -0.086      -0.069
-streath3       0.1526      0.004     38.335      0.000       0.144       0.161
-==============================================================================
-Omnibus:                       22.631   Durbin-Watson:                   2.214
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               32.504
-Skew:                           0.968   Prob(JB):                     8.75e-08
-Kurtosis:                       4.743   Cond. No.                     6.98e+03
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 6.98e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.                            OLS Regression Results
-==============================================================================
-Dep. Variable:                SCSALES   R-squared:                       0.061
-Model:                            OLS   Adj. R-squared:                 -0.039
-Method:                 Least Squares   F-statistic:                 1.377e+06
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           7.50e-34
-Time:                        21:35:48   Log-Likelihood:                -93.860
-No. Observations:                 115   AIC:                             211.7
-Df Residuals:                     103   BIC:                             244.7
-Df Model:                          11
-Covariance Type:              cluster
-==============================================================================
-                 coef    std err          t      P>|t|      [0.025      0.975]
-------------------------------------------------------------------------------
-Intercept      1.0511      0.485      2.169      0.051      -0.005       2.107
-treatl         0.0633      0.485      0.131      0.898      -0.992       1.119
-treath        -0.1769      0.485     -0.365      0.721      -1.233       0.879
-s              0.0784      0.418      0.187      0.854      -0.833       0.990
-streatl        0.8068      0.418      1.928      0.078      -0.105       1.719
-streath        1.0632      0.418      2.541      0.026       0.151       1.975
-s2             0.0243      0.099      0.247      0.809      -0.190       0.239
-streatl2      -0.8987      0.099     -9.121      0.000      -1.113      -0.684
-streath2      -1.1043      0.099    -11.209      0.000      -1.319      -0.890
-s3             0.0019      0.007      0.290      0.776      -0.012       0.016
-streatl3       0.1806      0.007     27.595      0.000       0.166       0.195
-streath3       0.2406      0.007     36.756      0.000       0.226       0.255
-==============================================================================
-Omnibus:                      102.710   Durbin-Watson:                   2.005
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1185.217
-Skew:                           2.969   Prob(JB):                    4.30e-258
-Kurtosis:                      17.564   Cond. No.                     6.98e+03
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The condition number is large, 6.98e+03. This might indicate that there are
-strong multicollinearity or other numerical problems.
