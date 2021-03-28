@@ -4,6 +4,7 @@ import pytask
 from fpdf import FPDF
 
 from src.config import BLD
+from src.config import ROOT
 
 
 def get_text_result(regression_model):
@@ -26,7 +27,7 @@ def get_text_result(regression_model):
     [
         (
             BLD / "analysis" / "baseline" / f"regression_{model_name}.pickle",
-            BLD / "figures" / "baseline" / f"regression_{model_name}.pdf",
+            ROOT / "baseline" / f"regression_{model_name}.pdf",
         )
         for model_name in ["degree_0", "degree_1", "degree_2", "degree_3"]
     ],
@@ -43,3 +44,4 @@ def task_result_pdf(depends_on, produces):
         pdf.cell(200, 10, txt=x, ln=1, align="C")
 
     pdf.output(produces)
+    pdf.output("result_baseline_model.pdf")

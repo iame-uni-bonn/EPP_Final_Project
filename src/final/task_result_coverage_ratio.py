@@ -49,3 +49,4 @@ def task_result_pdf(depends_on, produces):
         pdf.cell(200, 10, txt=x, ln=1, align="C")
 
     pdf.output(produces)
+    pdf.output("result_coverage_ratio_model.pdf")
