@@ -27,18 +27,7 @@ from src.model_code.baseline import regress
     ],
 )
 def task_regression(depends_on, produces):
-    """r
 
-    Args:
-
-
-    depends_on
-    produces
-
-    Returns:
-
-
-    """
     model = json.loads(depends_on["model"].read_text(encoding="utf-8"))
     full_sample = pd.read_csv(depends_on["data"])
     wide_window = full_sample[(full_sample.score > 51) & (full_sample.score < 81)]

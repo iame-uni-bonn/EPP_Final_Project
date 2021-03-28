@@ -15,7 +15,7 @@ def get_text_result(regression_model):
                 model.append(pickle.load(pkl))
         except EOFError:
             pass
-    text_file = open("Output.txt", "w+")
+    text_file = open("Output_baseline.txt", "w+")
     for result in model:
         text_file.write(result.as_text())
     return text_file.close()
@@ -38,7 +38,7 @@ def task_result_pdf(depends_on, produces):
     pdf.add_page()
     pdf.set_font("Arial", size=15)
     # open the text file in read mode
-    f = open("output.txt")
+    f = open("output_baseline.txt")
     for x in f:
         pdf.cell(200, 10, txt=x, ln=1, align="C")
 
