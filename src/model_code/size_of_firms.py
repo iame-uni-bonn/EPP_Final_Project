@@ -1,3 +1,10 @@
+""" The aim is to run a regression of 8 outcome variables on a set of covariates
+related to the size of firms. If the coefficient of 'treatsmall' or 'treatlarge' are
+significant, we could conclude that the age of the firm determines the effectiveness
+of incentives. The significance of 'treatsmall'('treatlarge') means that small(large) firms
+are affected by the public subsidy.
+
+"""
 import statsmodels.formula.api as sm
 
 

@@ -1,3 +1,10 @@
+""" The aim is to run a regression of 8 outcome variables on a set of covariates
+related to the coverage ratio of firms. If the coefficient of 'treath' or 'treatl' are
+significant, wesignificant, we could conclude that the coverage ratio of the firm determines
+ the effectiveness of incentives. The significance of 'treath'('treatl') means that firms with
+ high(low) coverage ratio are affected by the public subsidy.
+
+"""
 import statsmodels.formula.api as sm
 
 

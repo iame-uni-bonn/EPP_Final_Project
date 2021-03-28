@@ -1,6 +1,8 @@
 """ The aim is to run a regression of 8 outcome variables on a set of covariates
-related to the age of firms. If the coefficient of , we could conclude that the age
-of the firm determines the effectiveness of incentives.
+related to the age of firms. If the coefficient of 'treatfchigh' or 'treatfclow' are
+significant, we could conclude that the age of the firm determines the effectiveness
+of incentives. The significance of 'treatfchigh'('treatfclow') means that old(young) firms
+are affected by the public subsidy.
 
 """
 import econtools.metrics as mt
@@ -50,7 +52,7 @@ def regress(dependent_variable, dataframe, degree):
 
 
     Returns:
-        regression result(summary)
+        regression result(result)
 
 
     """

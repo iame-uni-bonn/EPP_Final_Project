@@ -1,6 +1,6 @@
 """ The aim is to run a regression of 8 outcome variables on a set of covariates
-related to the treatment program. If the coefficient of , we could conclude that
-the incentives are effective for firms.
+related to the treatment program. If the coefficient of 'treat' is significant,
+we could conclude that the incentives are effective for the investment of firms.
 
 """
 import statsmodels.formula.api as sm
@@ -35,7 +35,8 @@ def regress(dependent_variable, dataframe, degree):
 
     Args:
         dependent_variable (float): the independent variable
-        dataframe (pd.DataFrame): the dataframe of full sample, narrow window, and wide window
+        dataframe (pd.DataFrame): the dataframe of full sample, narrow window, and
+                                  wide window
         degree (integer): degree of polynomials
 
 
