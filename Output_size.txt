@@ -1,778 +1,862 @@
                             OLS Regression Results
 ==============================================================================
-Dep. Variable:               INVSALES   R-squared:                       0.052
-Model:                            OLS   Adj. R-squared:                  0.022
-Method:                 Least Squares   F-statistic:                     6.751
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           3.56e-07
-Time:                        18:29:51   Log-Likelihood:                 310.61
-No. Observations:                 357   AIC:                            -597.2
-Df Residuals:                     345   BIC:                            -550.7
-Df Model:                          11
+Dep. Variable:               INVSALES   R-squared:                       0.066
+Model:                            OLS   Adj. R-squared:                  0.025
+Method:                 Least Squares   F-statistic:                     11.24
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           7.86e-12
+Time:                        18:29:54   Log-Likelihood:                 313.31
+No. Observations:                 357   AIC:                            -594.6
+Df Residuals:                     341   BIC:                            -532.6
+Df Model:                          15
 Covariance Type:              cluster
 ================================================================================
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
-Intercept        0.0046      0.013      0.367      0.715      -0.021       0.030
-smallm          -0.0334      0.019     -1.756      0.085      -0.071       0.005
-largem           0.0380      0.026      1.442      0.155      -0.015       0.091
-treatsmall       0.0992      0.029      3.389      0.001       0.040       0.158
-treatlarge      -0.0104      0.042     -0.248      0.805      -0.094       0.074
-ssmall          -0.0063      0.003     -1.921      0.060      -0.013       0.000
-slarge          -0.0011      0.005     -0.224      0.823      -0.011       0.009
-streatsmall      0.0080      0.006      1.405      0.166      -0.003       0.020
-streatlarge      0.0015      0.007      0.216      0.830      -0.012       0.015
-ssmall2         -0.0001   7.29e-05     -1.413      0.163      -0.000    4.32e-05
-slarge2      -3.166e-05      0.000     -0.295      0.769      -0.000       0.000
-streatsmall2 -5.929e-05      0.000     -0.252      0.802      -0.001       0.000
-streatlarge2 -4.429e-05      0.000     -0.206      0.837      -0.000       0.000
+Intercept        0.0046      0.021      0.227      0.822      -0.036       0.046
+smallm          -0.0846      0.030     -2.825      0.007      -0.145      -0.025
+largem           0.0892      0.041      2.170      0.035       0.007       0.172
+treatsmall       0.1497      0.038      3.936      0.000       0.073       0.226
+treatlarge      -0.0301      0.064     -0.473      0.638      -0.158       0.098
+ssmall          -0.0206      0.009     -2.367      0.022      -0.038      -0.003
+slarge           0.0140      0.016      0.862      0.393      -0.019       0.046
+streatsmall      0.0228      0.016      1.432      0.158      -0.009       0.055
+streatlarge     -0.0306      0.020     -1.563      0.124      -0.070       0.009
+ssmall2         -0.0010      0.000     -1.998      0.051      -0.002    3.78e-06
+slarge2          0.0009      0.001      0.997      0.323      -0.001       0.003
+streatsmall2     0.0007      0.002      0.431      0.668      -0.003       0.004
+streatlarge2     0.0010      0.002      0.644      0.522      -0.002       0.004
+ssmall3      -1.287e-05   6.89e-06     -1.868      0.067   -2.67e-05    9.49e-07
+slarge3       1.314e-05   1.18e-05      1.114      0.270   -1.05e-05    3.68e-05
+streatsmall3  1.506e-05      5e-05      0.301      0.765   -8.53e-05       0.000
+streatlarge3 -7.196e-05   4.21e-05     -1.708      0.093      -0.000    1.25e-05
 ==============================================================================
-Omnibus:                       58.558   Durbin-Watson:                   1.859
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               90.781
-Skew:                           1.005   Prob(JB):                     1.94e-20
-Kurtosis:                       4.438   Cond. No.                     2.43e+17
+Omnibus:                       55.449   Durbin-Watson:                   1.873
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               83.665
+Skew:                           0.972   Prob(JB):                     6.80e-19
+Kurtosis:                       4.358   Cond. No.                     2.97e+17
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 7.08e-28. This might indicate that there are
+[2] The smallest eigenvalue is 7.79e-25. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
 ==============================================================================
-Dep. Variable:              INVTSALES   R-squared:                       0.025
-Model:                            OLS   Adj. R-squared:                 -0.006
-Method:                 Least Squares   F-statistic:                     9.689
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.33e-09
-Time:                        18:29:51   Log-Likelihood:                 361.55
-No. Observations:                 357   AIC:                            -699.1
-Df Residuals:                     345   BIC:                            -652.6
-Df Model:                          11
+Dep. Variable:              INVTSALES   R-squared:                       0.034
+Model:                            OLS   Adj. R-squared:                 -0.009
+Method:                 Least Squares   F-statistic:                     15.25
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.88e-14
+Time:                        18:29:54   Log-Likelihood:                 363.24
+No. Observations:                 357   AIC:                            -694.5
+Df Residuals:                     341   BIC:                            -632.4
+Df Model:                          15
 Covariance Type:              cluster
 ================================================================================
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
-Intercept        0.0078      0.012      0.627      0.534      -0.017       0.033
-smallm          -0.0256      0.011     -2.263      0.028      -0.048      -0.003
-largem           0.0333      0.018      1.826      0.073      -0.003       0.070
-treatsmall       0.0539      0.020      2.760      0.008       0.015       0.093
-treatlarge      -0.0102      0.033     -0.307      0.760      -0.077       0.057
-ssmall          -0.0024      0.002     -1.122      0.267      -0.007       0.002
-slarge           0.0005      0.004      0.130      0.897      -0.008       0.009
-streatsmall      0.0013      0.004      0.308      0.759      -0.007       0.010
-streatlarge     -0.0006      0.006     -0.107      0.915      -0.012       0.011
-ssmall2      -1.569e-05   4.58e-05     -0.343      0.733      -0.000    7.61e-05
-slarge2      -6.344e-06   8.61e-05     -0.074      0.942      -0.000       0.000
-streatsmall2  9.832e-05      0.000      0.527      0.600      -0.000       0.000
-streatlarge2 -4.192e-05      0.000     -0.241      0.811      -0.000       0.000
+Intercept        0.0098      0.020      0.499      0.620      -0.030       0.049
+smallm          -0.0609      0.018     -3.350      0.001      -0.097      -0.024
+largem           0.0707      0.030      2.368      0.022       0.011       0.131
+treatsmall       0.0815      0.024      3.344      0.002       0.033       0.130
+treatlarge      -0.0315      0.051     -0.612      0.543      -0.135       0.072
+ssmall          -0.0116      0.005     -2.238      0.029      -0.022      -0.001
+slarge           0.0121      0.014      0.871      0.388      -0.016       0.040
+streatsmall      0.0147      0.012      1.195      0.237      -0.010       0.039
+streatlarge     -0.0219      0.017     -1.312      0.195      -0.055       0.012
+ssmall2         -0.0006      0.000     -1.970      0.054      -0.001    1.04e-05
+slarge2          0.0007      0.001      0.917      0.363      -0.001       0.002
+streatsmall2     0.0001      0.001      0.073      0.942      -0.003       0.003
+streatlarge2     0.0004      0.001      0.283      0.778      -0.002       0.003
+ssmall3      -8.355e-06   4.23e-06     -1.976      0.053   -1.68e-05    1.25e-07
+slarge3        1.01e-05   1.01e-05      0.996      0.324   -1.02e-05    3.04e-05
+streatsmall3  2.625e-05   4.68e-05      0.561      0.577   -6.77e-05       0.000
+streatlarge3 -4.392e-05   3.74e-05     -1.176      0.245      -0.000     3.1e-05
 ==============================================================================
-Omnibus:                       82.357   Durbin-Watson:                   1.984
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              408.049
-Skew:                           0.867   Prob(JB):                     2.47e-89
-Kurtosis:                       7.942   Cond. No.                     2.43e+17
+Omnibus:                       84.152   Durbin-Watson:                   1.994
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              430.649
+Skew:                           0.879   Prob(JB):                     3.06e-94
+Kurtosis:                       8.086   Cond. No.                     2.97e+17
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 7.08e-28. This might indicate that there are
+[2] The smallest eigenvalue is 7.79e-25. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
 ==============================================================================
-Dep. Variable:            INVINTSALES   R-squared:                       0.070
-Model:                            OLS   Adj. R-squared:                  0.040
-Method:                 Least Squares   F-statistic:                     2.788
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):            0.00511
-Time:                        18:29:51   Log-Likelihood:                 504.53
-No. Observations:                 357   AIC:                            -985.1
-Df Residuals:                     345   BIC:                            -938.5
-Df Model:                          11
+Dep. Variable:            INVINTSALES   R-squared:                       0.076
+Model:                            OLS   Adj. R-squared:                  0.036
+Method:                 Least Squares   F-statistic:                     2.008
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):             0.0298
+Time:                        18:29:54   Log-Likelihood:                 505.69
+No. Observations:                 357   AIC:                            -979.4
+Df Residuals:                     341   BIC:                            -917.3
+Df Model:                          15
 Covariance Type:              cluster
 ================================================================================
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
-Intercept       -0.0031      0.006     -0.564      0.575      -0.014       0.008
-smallm          -0.0078      0.012     -0.646      0.521      -0.032       0.016
-largem           0.0046      0.011      0.410      0.684      -0.018       0.027
-treatsmall       0.0453      0.024      1.885      0.065      -0.003       0.093
-treatlarge      -0.0002      0.015     -0.012      0.990      -0.031       0.031
-ssmall          -0.0039      0.003     -1.570      0.122      -0.009       0.001
-slarge          -0.0016      0.002     -0.768      0.446      -0.006       0.003
-streatsmall      0.0068      0.005      1.295      0.201      -0.004       0.017
-streatlarge      0.0021      0.003      0.750      0.457      -0.003       0.008
-ssmall2      -8.727e-05   5.24e-05     -1.665      0.102      -0.000    1.79e-05
-slarge2      -2.532e-05   5.13e-05     -0.494      0.623      -0.000    7.75e-05
-streatsmall2    -0.0002      0.000     -0.766      0.447      -0.001       0.000
-streatlarge2 -2.369e-06   9.07e-05     -0.026      0.979      -0.000       0.000
+Intercept       -0.0052      0.013     -0.405      0.687      -0.031       0.020
+smallm          -0.0237      0.021     -1.147      0.256      -0.065       0.018
+largem           0.0185      0.023      0.792      0.432      -0.028       0.065
+treatsmall       0.0682      0.032      2.134      0.038       0.004       0.132
+treatlarge       0.0013      0.033      0.041      0.968      -0.064       0.067
+ssmall          -0.0089      0.007     -1.276      0.208      -0.023       0.005
+slarge           0.0019      0.009      0.202      0.841      -0.017       0.020
+streatsmall      0.0081      0.010      0.834      0.408      -0.011       0.028
+streatlarge     -0.0086      0.010     -0.872      0.387      -0.028       0.011
+ssmall2         -0.0004      0.000     -0.992      0.326      -0.001       0.000
+slarge2          0.0002      0.001      0.344      0.732      -0.001       0.001
+streatsmall2     0.0006      0.001      0.742      0.461      -0.001       0.002
+streatlarge2     0.0006      0.001      0.911      0.366      -0.001       0.002
+ssmall3       -4.52e-06   5.68e-06     -0.795      0.430   -1.59e-05    6.88e-06
+slarge3       3.045e-06   7.36e-06      0.414      0.681   -1.17e-05    1.78e-05
+streatsmall3 -1.119e-05   2.46e-05     -0.455      0.651   -6.05e-05    3.82e-05
+streatlarge3 -2.805e-05   1.49e-05     -1.882      0.065   -5.79e-05    1.85e-06
 ==============================================================================
-Omnibus:                      155.596   Durbin-Watson:                   1.697
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              911.871
-Skew:                           1.746   Prob(JB):                    9.76e-199
-Kurtosis:                      10.008   Cond. No.                     2.43e+17
+Omnibus:                      153.894   Durbin-Watson:                   1.699
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              887.761
+Skew:                           1.729   Prob(JB):                    1.68e-193
+Kurtosis:                       9.908   Cond. No.                     2.97e+17
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 7.08e-28. This might indicate that there are
+[2] The smallest eigenvalue is 7.79e-25. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
 ==============================================================================
-Dep. Variable:                   INVK   R-squared:                       0.067
+Dep. Variable:                   INVK   R-squared:                       0.078
 Model:                            OLS   Adj. R-squared:                  0.037
-Method:                 Least Squares   F-statistic:                     8.656
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           8.41e-09
-Time:                        18:29:51   Log-Likelihood:                -586.30
-No. Observations:                 357   AIC:                             1197.
-Df Residuals:                     345   BIC:                             1243.
-Df Model:                          11
+Method:                 Least Squares   F-statistic:                     10.31
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           3.93e-11
+Time:                        18:29:54   Log-Likelihood:                -584.18
+No. Observations:                 357   AIC:                             1200.
+Df Residuals:                     341   BIC:                             1262.
+Df Model:                          15
 Covariance Type:              cluster
 ================================================================================
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
-Intercept        0.0941      0.109      0.862      0.393      -0.125       0.313
-smallm          -0.0531      0.254     -0.209      0.835      -0.562       0.455
-largem           0.1472      0.187      0.787      0.435      -0.228       0.522
-treatsmall       1.2662      0.445      2.848      0.006       0.374       2.158
-treatlarge       0.0197      0.264      0.074      0.941      -0.510       0.550
-ssmall          -0.0747      0.033     -2.298      0.026      -0.140      -0.009
-slarge          -0.0028      0.023     -0.121      0.904      -0.049       0.043
-streatsmall      0.0060      0.068      0.087      0.931      -0.131       0.143
-streatlarge      0.0323      0.043      0.751      0.456      -0.054       0.119
-ssmall2         -0.0017      0.001     -2.562      0.013      -0.003      -0.000
-slarge2         -0.0001      0.000     -0.271      0.788      -0.001       0.001
-streatsmall2     0.0030      0.003      1.173      0.246      -0.002       0.008
-streatlarge2    -0.0020      0.002     -1.351      0.182      -0.005       0.001
+Intercept        0.0082      0.104      0.079      0.938      -0.200       0.217
+smallm          -0.5754      0.206     -2.799      0.007      -0.988      -0.163
+largem           0.5836      0.179      3.261      0.002       0.225       0.943
+treatsmall       2.0895      0.379      5.515      0.000       1.330       2.849
+treatlarge      -0.4255      0.302     -1.407      0.165      -1.032       0.181
+ssmall          -0.2439      0.094     -2.607      0.012      -0.432      -0.056
+slarge           0.1003      0.061      1.634      0.108      -0.023       0.223
+streatsmall      0.0155      0.143      0.109      0.914      -0.270       0.301
+streatlarge     -0.0197      0.110     -0.179      0.859      -0.241       0.202
+ssmall2         -0.0118      0.006     -2.122      0.039      -0.023      -0.001
+slarge2          0.0059      0.003      1.724      0.091      -0.001       0.013
+streatsmall2     0.0338      0.014      2.337      0.023       0.005       0.063
+streatlarge2    -0.0139      0.011     -1.255      0.215      -0.036       0.008
+ssmall3         -0.0002    8.2e-05     -1.867      0.067      -0.000    1.14e-05
+slarge3       8.985e-05   4.94e-05      1.818      0.075   -9.25e-06       0.000
+streatsmall3    -0.0005      0.000     -1.202      0.235      -0.001       0.000
+streatlarge3  8.678e-05      0.000      0.267      0.790      -0.001       0.001
 ==============================================================================
-Omnibus:                      338.415   Durbin-Watson:                   2.089
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):             8513.229
-Skew:                           4.080   Prob(JB):                         0.00
-Kurtosis:                      25.489   Cond. No.                     2.43e+17
+Omnibus:                      334.352   Durbin-Watson:                   2.118
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             8142.043
+Skew:                           4.016   Prob(JB):                         0.00
+Kurtosis:                      24.974   Cond. No.                     2.97e+17
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 7.08e-28. This might indicate that there are
+[2] The smallest eigenvalue is 7.79e-25. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
 ==============================================================================
-Dep. Variable:                   INVA   R-squared:                       0.055
-Model:                            OLS   Adj. R-squared:                  0.024
-Method:                 Least Squares   F-statistic:                     7.892
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           3.56e-08
-Time:                        18:29:51   Log-Likelihood:                 270.46
-No. Observations:                 357   AIC:                            -516.9
-Df Residuals:                     345   BIC:                            -470.4
-Df Model:                          11
+Dep. Variable:                   INVA   R-squared:                       0.067
+Model:                            OLS   Adj. R-squared:                  0.026
+Method:                 Least Squares   F-statistic:                     12.44
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.12e-12
+Time:                        18:29:54   Log-Likelihood:                 272.78
+No. Observations:                 357   AIC:                            -513.6
+Df Residuals:                     341   BIC:                            -451.5
+Df Model:                          15
 Covariance Type:              cluster
 ================================================================================
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
-Intercept       -0.0049      0.014     -0.360      0.721      -0.032       0.022
-smallm          -0.0353      0.020     -1.801      0.077      -0.075       0.004
-largem           0.0304      0.025      1.233      0.223      -0.019       0.080
-treatsmall       0.1200      0.030      3.935      0.000       0.059       0.181
-treatlarge       0.0014      0.038      0.036      0.972      -0.075       0.078
-ssmall          -0.0100      0.004     -2.303      0.025      -0.019      -0.001
-slarge          -0.0027      0.005     -0.537      0.594      -0.013       0.007
-streatsmall      0.0125      0.006      1.926      0.059      -0.001       0.026
-streatlarge      0.0052      0.007      0.798      0.428      -0.008       0.018
-ssmall2         -0.0002   9.47e-05     -2.054      0.045      -0.000   -4.58e-06
-slarge2      -6.138e-05      0.000     -0.579      0.565      -0.000       0.000
-streatsmall2  -2.15e-05      0.000     -0.084      0.933      -0.001       0.000
-streatlarge2    -0.0001      0.000     -0.520      0.605      -0.001       0.000
+Intercept       -0.0149      0.021     -0.699      0.488      -0.057       0.028
+smallm          -0.0920      0.032     -2.833      0.007      -0.157      -0.027
+largem           0.0771      0.040      1.910      0.062      -0.004       0.158
+treatsmall       0.1929      0.041      4.753      0.000       0.112       0.274
+treatlarge      -0.0108      0.060     -0.181      0.857      -0.130       0.109
+ssmall          -0.0286      0.010     -2.813      0.007      -0.049      -0.008
+slarge           0.0081      0.016      0.504      0.617      -0.024       0.041
+streatsmall      0.0264      0.017      1.517      0.135      -0.009       0.061
+streatlarge     -0.0189      0.019     -0.974      0.335      -0.058       0.020
+ssmall2         -0.0013      0.001     -2.548      0.014      -0.002      -0.000
+slarge2          0.0006      0.001      0.657      0.514      -0.001       0.002
+streatsmall2     0.0017      0.002      0.910      0.367      -0.002       0.005
+streatlarge2     0.0008      0.002      0.480      0.633      -0.002       0.004
+ssmall3      -1.679e-05      7e-06     -2.397      0.020   -3.08e-05   -2.74e-06
+slarge3       9.445e-06   1.23e-05      0.770      0.445   -1.52e-05    3.41e-05
+streatsmall3  -3.07e-06    5.6e-05     -0.055      0.957      -0.000       0.000
+streatlarge3 -5.553e-05   4.41e-05     -1.260      0.213      -0.000    3.29e-05
 ==============================================================================
-Omnibus:                       89.303   Durbin-Watson:                   1.875
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              206.588
-Skew:                           1.241   Prob(JB):                     1.38e-45
-Kurtosis:                       5.779   Cond. No.                     2.43e+17
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 7.08e-28. This might indicate that there are
-strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
-==============================================================================
-Dep. Variable:                LCSALES   R-squared:                       0.043
-Model:                            OLS   Adj. R-squared:                  0.013
-Method:                 Least Squares   F-statistic:                     172.8
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           5.32e-38
-Time:                        18:29:51   Log-Likelihood:                -112.99
-No. Observations:                 357   AIC:                             250.0
-Df Residuals:                     345   BIC:                             296.5
-Df Model:                          11
-Covariance Type:              cluster
-================================================================================
-                   coef    std err          t      P>|t|      [0.025      0.975]
---------------------------------------------------------------------------------
-Intercept        0.5678      0.063      8.942      0.000       0.440       0.695
-smallm           0.2273      0.082      2.781      0.007       0.063       0.391
-largem           0.3404      0.115      2.962      0.005       0.110       0.571
-treatsmall      -0.0700      0.118     -0.590      0.557      -0.308       0.168
-treatlarge      -0.2413      0.172     -1.402      0.167      -0.587       0.104
-ssmall           0.0048      0.014      0.344      0.732      -0.023       0.033
-slarge           0.0348      0.018      1.956      0.056      -0.001       0.071
-streatsmall     -0.0054      0.022     -0.245      0.807      -0.049       0.039
-streatlarge     -0.0368      0.022     -1.653      0.104      -0.081       0.008
-ssmall2       3.889e-05      0.000      0.130      0.897      -0.001       0.001
-slarge2          0.0009      0.000      1.930      0.059   -3.47e-05       0.002
-streatsmall2     0.0001      0.001      0.144      0.886      -0.002       0.002
-streatlarge2    -0.0010      0.001     -1.244      0.219      -0.003       0.001
-==============================================================================
-Omnibus:                       77.600   Durbin-Watson:                   2.021
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              172.672
-Skew:                           1.096   Prob(JB):                     3.20e-38
-Kurtosis:                       5.608   Cond. No.                     2.43e+17
+Omnibus:                       87.874   Durbin-Watson:                   1.887
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              201.470
+Skew:                           1.225   Prob(JB):                     1.78e-44
+Kurtosis:                       5.745   Cond. No.                     2.97e+17
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 7.08e-28. This might indicate that there are
+[2] The smallest eigenvalue is 7.79e-25. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
 ==============================================================================
-Dep. Variable:                SCSALES   R-squared:                       0.076
+Dep. Variable:                LCSALES   R-squared:                       0.086
 Model:                            OLS   Adj. R-squared:                  0.046
-Method:                 Least Squares   F-statistic:                     263.2
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           9.94e-43
-Time:                        18:29:51   Log-Likelihood:                -258.19
-No. Observations:                 357   AIC:                             540.4
-Df Residuals:                     345   BIC:                             586.9
-Df Model:                          11
+Method:                 Least Squares   F-statistic:                     176.5
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           4.55e-40
+Time:                        18:29:54   Log-Likelihood:                -104.92
+No. Observations:                 357   AIC:                             241.8
+Df Residuals:                     341   BIC:                             303.9
+Df Model:                          15
 Covariance Type:              cluster
 ================================================================================
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
-Intercept        0.6698      0.060     11.197      0.000       0.550       0.790
-smallm           0.4270      0.120      3.561      0.001       0.186       0.668
-largem           0.2427      0.139      1.748      0.086      -0.036       0.521
-treatsmall       0.0762      0.181      0.420      0.676      -0.288       0.440
-treatlarge      -0.0799      0.188     -0.424      0.673      -0.457       0.298
-ssmall          -0.0064      0.017     -0.388      0.700      -0.040       0.027
-slarge           0.0118      0.025      0.471      0.640      -0.038       0.062
-streatsmall     -0.0102      0.032     -0.318      0.752      -0.075       0.054
-streatlarge     -0.0097      0.030     -0.322      0.748      -0.070       0.051
-ssmall2      -6.559e-05      0.000     -0.193      0.847      -0.001       0.001
-slarge2          0.0005      0.001      0.772      0.443      -0.001       0.002
-streatsmall2     0.0007      0.001      0.499      0.620      -0.002       0.003
-streatlarge2    -0.0006      0.001     -0.534      0.596      -0.003       0.002
+Intercept        0.7455      0.132      5.641      0.000       0.480       1.011
+smallm           0.1349      0.133      1.017      0.314      -0.131       0.401
+largem           0.6105      0.226      2.700      0.009       0.157       1.064
+treatsmall      -0.2471      0.156     -1.580      0.120      -0.561       0.067
+treatlarge      -0.6260      0.349     -1.794      0.079      -1.326       0.074
+ssmall           0.0285      0.036      0.803      0.426      -0.043       0.100
+slarge           0.1665      0.077      2.155      0.036       0.012       0.321
+streatsmall      0.0391      0.051      0.773      0.443      -0.062       0.141
+streatlarge     -0.2024      0.083     -2.445      0.018      -0.368      -0.036
+ssmall2          0.0015      0.002      0.749      0.457      -0.002       0.005
+slarge2          0.0086      0.004      2.020      0.048    5.95e-05       0.017
+streatsmall2    -0.0101      0.005     -2.159      0.035      -0.019      -0.001
+streatlarge2    -0.0049      0.006     -0.878      0.384      -0.016       0.006
+ssmall3       2.148e-05   2.82e-05      0.762      0.450   -3.51e-05     7.8e-05
+slarge3          0.0001   5.98e-05      1.919      0.060   -5.19e-06       0.000
+streatsmall3     0.0003      0.000      2.004      0.050   -1.72e-07       0.001
+streatlarge3    -0.0002      0.000     -1.834      0.072      -0.000    2.18e-05
 ==============================================================================
-Omnibus:                      174.666   Durbin-Watson:                   1.840
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1102.062
-Skew:                           1.982   Prob(JB):                    4.90e-240
-Kurtosis:                      10.640   Cond. No.                     2.43e+17
+Omnibus:                       64.945   Durbin-Watson:                   2.062
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              118.106
+Skew:                           1.011   Prob(JB):                     2.26e-26
+Kurtosis:                       4.962   Cond. No.                     2.97e+17
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 7.08e-28. This might indicate that there are
+[2] The smallest eigenvalue is 7.79e-25. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
 ==============================================================================
-Dep. Variable:               INVSALES   R-squared:                       0.124
-Model:                            OLS   Adj. R-squared:                  0.064
-Method:                 Least Squares   F-statistic:                     7.829
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.43e-05
-Time:                        18:29:51   Log-Likelihood:                 150.57
-No. Observations:                 171   AIC:                            -277.1
-Df Residuals:                     159   BIC:                            -239.4
-Df Model:                          11
+Dep. Variable:                SCSALES   R-squared:                       0.094
+Model:                            OLS   Adj. R-squared:                  0.054
+Method:                 Least Squares   F-statistic:                     233.6
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           3.15e-43
+Time:                        18:29:54   Log-Likelihood:                -254.53
+No. Observations:                 357   AIC:                             541.1
+Df Residuals:                     341   BIC:                             603.1
+Df Model:                          15
 Covariance Type:              cluster
 ================================================================================
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
-Intercept       -0.0137      0.026     -0.527      0.603      -0.067       0.040
-smallm          -0.0710      0.036     -1.966      0.061      -0.145       0.004
-largem           0.0573      0.050      1.151      0.261      -0.045       0.160
-treatsmall       0.1785      0.052      3.404      0.002       0.070       0.287
-treatlarge       0.0308      0.080      0.383      0.705      -0.135       0.197
-ssmall          -0.0211      0.011     -1.887      0.071      -0.044       0.002
-slarge          -0.0019      0.018     -0.109      0.914      -0.038       0.035
-streatsmall     -0.0457      0.028     -1.613      0.120      -0.104       0.013
-streatlarge     -0.0199      0.030     -0.658      0.517      -0.082       0.042
-ssmall2         -0.0008      0.001     -1.449      0.160      -0.002       0.000
-slarge2         -0.0001      0.001     -0.198      0.845      -0.002       0.001
-streatsmall2     0.0165      0.006      2.988      0.006       0.005       0.028
-streatlarge2     0.0019      0.004      0.500      0.621      -0.006       0.010
+Intercept        0.7628      0.091      8.421      0.000       0.581       0.944
+smallm           0.1401      0.151      0.926      0.359      -0.163       0.443
+largem           0.6227      0.218      2.858      0.006       0.186       1.060
+treatsmall       0.2202      0.186      1.184      0.242      -0.153       0.593
+treatlarge      -0.6041      0.314     -1.923      0.060      -1.234       0.026
+ssmall          -0.0604      0.038     -1.578      0.120      -0.137       0.016
+slarge           0.1508      0.070      2.153      0.036       0.010       0.291
+streatsmall      0.0808      0.066      1.228      0.225      -0.051       0.213
+streatlarge     -0.1210      0.083     -1.457      0.151      -0.288       0.046
+ssmall2         -0.0033      0.002     -1.339      0.186      -0.008       0.002
+slarge2          0.0087      0.004      2.088      0.042       0.000       0.017
+streatsmall2    -0.0009      0.006     -0.145      0.885      -0.013       0.011
+streatlarge2    -0.0119      0.006     -1.879      0.066      -0.025       0.001
+ssmall3      -4.882e-05   3.83e-05     -1.276      0.207      -0.000    2.79e-05
+slarge3          0.0001   6.18e-05      1.962      0.055   -2.67e-06       0.000
+streatsmall3     0.0002      0.000      1.220      0.228      -0.000       0.001
+streatlarge3 -2.546e-05      0.000     -0.164      0.870      -0.000       0.000
 ==============================================================================
-Omnibus:                       29.262   Durbin-Watson:                   2.002
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               41.989
-Skew:                           0.958   Prob(JB):                     7.62e-10
-Kurtosis:                       4.491   Cond. No.                     4.21e+17
+Omnibus:                      171.866   Durbin-Watson:                   1.869
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1079.806
+Skew:                           1.944   Prob(JB):                    3.33e-235
+Kurtosis:                      10.581   Cond. No.                     2.97e+17
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 5.63e-30. This might indicate that there are
+[2] The smallest eigenvalue is 7.79e-25. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
 ==============================================================================
-Dep. Variable:              INVTSALES   R-squared:                       0.112
-Model:                            OLS   Adj. R-squared:                  0.051
-Method:                 Least Squares   F-statistic:                     15.72
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.14e-08
-Time:                        18:29:51   Log-Likelihood:                 187.95
-No. Observations:                 171   AIC:                            -351.9
-Df Residuals:                     159   BIC:                            -314.2
-Df Model:                          11
+Dep. Variable:               INVSALES   R-squared:                       0.193
+Model:                            OLS   Adj. R-squared:                  0.115
+Method:                 Least Squares   F-statistic:                 8.050e+04
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.30e-52
+Time:                        18:29:54   Log-Likelihood:                 157.58
+No. Observations:                 171   AIC:                            -283.2
+Df Residuals:                     155   BIC:                            -232.9
+Df Model:                          15
 Covariance Type:              cluster
 ================================================================================
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
-Intercept        0.0073      0.023      0.315      0.756      -0.041       0.055
-smallm          -0.0473      0.018     -2.632      0.015      -0.084      -0.010
-largem           0.0546      0.035      1.570      0.130      -0.017       0.126
-treatsmall       0.0849      0.028      3.076      0.005       0.028       0.142
-treatlarge      -0.0111      0.064     -0.175      0.863      -0.142       0.120
-ssmall          -0.0075      0.005     -1.389      0.178      -0.019       0.004
-slarge           0.0056      0.016      0.361      0.721      -0.026       0.038
-streatsmall     -0.0423      0.017     -2.502      0.020      -0.077      -0.007
-streatlarge     -0.0090      0.026     -0.344      0.734      -0.063       0.045
-ssmall2         -0.0002      0.000     -0.677      0.505      -0.001       0.000
-slarge2          0.0002      0.001      0.257      0.799      -0.001       0.001
-streatsmall2     0.0129      0.003      3.874      0.001       0.006       0.020
-streatlarge2    -0.0017      0.003     -0.489      0.629      -0.009       0.005
+Intercept        0.0711      0.019      3.732      0.001       0.032       0.110
+smallm          -0.0903      0.050     -1.822      0.081      -0.193       0.012
+largem           0.1614      0.056      2.902      0.008       0.047       0.276
+treatsmall       0.0892      0.051      1.745      0.094      -0.016       0.195
+treatlarge      -0.1605      0.076     -2.107      0.046      -0.318      -0.003
+ssmall           0.0086      0.020      0.434      0.668      -0.032       0.050
+slarge           0.0810      0.030      2.659      0.014       0.018       0.144
+streatsmall      0.0663      0.063      1.048      0.305      -0.064       0.197
+streatlarge     -0.0973      0.056     -1.752      0.093      -0.212       0.017
+ssmall2          0.0027      0.002      1.269      0.217      -0.002       0.007
+slarge2          0.0091      0.004      2.521      0.019       0.002       0.016
+streatsmall2    -0.0630      0.028     -2.212      0.037      -0.122      -0.004
+streatlarge2    -0.0100      0.021     -0.486      0.631      -0.053       0.033
+ssmall3          0.0001   6.58e-05      1.733      0.096   -2.18e-05       0.000
+slarge3          0.0003      0.000      2.436      0.023    4.22e-05       0.001
+streatsmall3     0.0098      0.003      2.959      0.007       0.003       0.017
+streatlarge3  7.004e-05      0.002      0.028      0.978      -0.005       0.005
 ==============================================================================
-Omnibus:                       55.202   Durbin-Watson:                   2.134
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              159.296
-Skew:                           1.304   Prob(JB):                     2.57e-35
-Kurtosis:                       6.944   Cond. No.                     4.21e+17
+Omnibus:                       21.853   Durbin-Watson:                   2.068
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               30.097
+Skew:                           0.752   Prob(JB):                     2.91e-07
+Kurtosis:                       4.401   Cond. No.                     3.40e+17
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 5.63e-30. This might indicate that there are
+[2] The smallest eigenvalue is 3.18e-27. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
 ==============================================================================
-Dep. Variable:            INVINTSALES   R-squared:                       0.070
-Model:                            OLS   Adj. R-squared:                  0.006
-Method:                 Least Squares   F-statistic:                     75.19
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           7.68e-16
-Time:                        18:29:51   Log-Likelihood:                 239.57
-No. Observations:                 171   AIC:                            -455.1
-Df Residuals:                     159   BIC:                            -417.4
-Df Model:                          11
+Dep. Variable:              INVTSALES   R-squared:                       0.162
+Model:                            OLS   Adj. R-squared:                  0.081
+Method:                 Least Squares   F-statistic:                 2.241e+04
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.06e-45
+Time:                        18:29:54   Log-Likelihood:                 192.89
+No. Observations:                 171   AIC:                            -353.8
+Df Residuals:                     155   BIC:                            -303.5
+Df Model:                          15
 Covariance Type:              cluster
 ================================================================================
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
-Intercept       -0.0210      0.013     -1.647      0.113      -0.047       0.005
-smallm          -0.0237      0.026     -0.919      0.367      -0.077       0.029
-largem           0.0026      0.023      0.114      0.911      -0.045       0.051
-treatsmall       0.0937      0.039      2.390      0.025       0.013       0.175
-treatlarge       0.0419      0.030      1.387      0.178      -0.020       0.104
-ssmall          -0.0136      0.010     -1.430      0.166      -0.033       0.006
-slarge          -0.0075      0.006     -1.161      0.257      -0.021       0.006
-streatsmall     -0.0034      0.021     -0.168      0.868      -0.046       0.039
-streatlarge     -0.0108      0.012     -0.898      0.378      -0.036       0.014
-ssmall2         -0.0006      0.000     -1.339      0.193      -0.002       0.000
-slarge2         -0.0003      0.000     -1.234      0.229      -0.001       0.000
-streatsmall2     0.0036      0.004      0.887      0.384      -0.005       0.012
-streatlarge2     0.0035      0.002      2.257      0.033       0.000       0.007
+Intercept        0.0650      0.023      2.871      0.008       0.018       0.112
+smallm          -0.0581      0.034     -1.719      0.098      -0.128       0.012
+largem           0.1231      0.043      2.862      0.009       0.034       0.212
+treatsmall       0.0217      0.038      0.567      0.576      -0.057       0.101
+treatlarge      -0.1450      0.064     -2.266      0.033      -0.277      -0.013
+ssmall           0.0138      0.016      0.871      0.393      -0.019       0.046
+slarge           0.0610      0.029      2.095      0.047       0.001       0.121
+streatsmall      0.0334      0.020      1.701      0.102      -0.007       0.074
+streatlarge     -0.0464      0.046     -1.017      0.320      -0.141       0.048
+ssmall2          0.0023      0.002      1.331      0.196      -0.001       0.006
+slarge2          0.0063      0.003      1.805      0.084      -0.001       0.014
+streatsmall2    -0.0415      0.007     -6.115      0.000      -0.056      -0.028
+streatlarge2    -0.0167      0.018     -0.945      0.354      -0.053       0.020
+ssmall3       8.159e-05   5.11e-05      1.596      0.124   -2.39e-05       0.000
+slarge3          0.0002      0.000      1.667      0.109    -4.4e-05       0.000
+streatsmall3     0.0067      0.001      7.624      0.000       0.005       0.009
+streatlarge3     0.0010      0.002      0.422      0.677      -0.004       0.006
 ==============================================================================
-Omnibus:                       73.781   Durbin-Watson:                   1.606
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              375.863
-Skew:                           1.529   Prob(JB):                     2.41e-82
-Kurtosis:                       9.588   Cond. No.                     4.21e+17
+Omnibus:                       42.169   Durbin-Watson:                   2.137
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              101.177
+Skew:                           1.051   Prob(JB):                     1.07e-22
+Kurtosis:                       6.127   Cond. No.                     3.40e+17
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 5.63e-30. This might indicate that there are
+[2] The smallest eigenvalue is 3.18e-27. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
 ==============================================================================
-Dep. Variable:                   INVK   R-squared:                       0.086
-Model:                            OLS   Adj. R-squared:                  0.023
-Method:                 Least Squares   F-statistic:                     77.98
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           5.03e-16
-Time:                        18:29:51   Log-Likelihood:                -312.13
-No. Observations:                 171   AIC:                             648.3
-Df Residuals:                     159   BIC:                             686.0
-Df Model:                          11
+Dep. Variable:            INVINTSALES   R-squared:                       0.092
+Model:                            OLS   Adj. R-squared:                  0.004
+Method:                 Least Squares   F-statistic:                 2.105e+05
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.26e-57
+Time:                        18:29:54   Log-Likelihood:                 241.62
+No. Observations:                 171   AIC:                            -451.2
+Df Residuals:                     155   BIC:                            -401.0
+Df Model:                          15
 Covariance Type:              cluster
 ================================================================================
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
-Intercept       -0.1485      0.141     -1.053      0.303      -0.440       0.143
-smallm          -0.6742      0.304     -2.214      0.037      -1.303      -0.046
-largem           0.5257      0.244      2.156      0.041       0.022       1.029
-treatsmall       2.3488      0.460      5.100      0.000       1.398       3.299
-treatlarge      -0.3391      0.375     -0.905      0.375      -1.113       0.435
-ssmall          -0.3129      0.167     -1.878      0.073      -0.657       0.031
-slarge           0.0293      0.067      0.439      0.665      -0.108       0.167
-streatsmall     -0.0954      0.305     -0.313      0.757      -0.725       0.534
-streatlarge      0.0627      0.251      0.250      0.805      -0.455       0.580
-ssmall2         -0.0135      0.009     -1.516      0.143      -0.032       0.005
-slarge2          0.0009      0.003      0.314      0.756      -0.005       0.007
-streatsmall2     0.0883      0.055      1.617      0.119      -0.024       0.201
-streatlarge2     0.0074      0.042      0.178      0.860      -0.078       0.093
+Intercept        0.0061      0.022      0.281      0.781      -0.039       0.051
+smallm          -0.0322      0.037     -0.864      0.396      -0.109       0.045
+largem           0.0383      0.027      1.432      0.165      -0.017       0.093
+treatsmall       0.0675      0.056      1.210      0.238      -0.048       0.183
+treatlarge      -0.0155      0.035     -0.444      0.661      -0.088       0.057
+ssmall          -0.0052      0.020     -0.263      0.795      -0.046       0.035
+slarge           0.0200      0.013      1.593      0.124      -0.006       0.046
+streatsmall      0.0329      0.072      0.459      0.650      -0.115       0.181
+streatlarge     -0.0509      0.026     -1.956      0.062      -0.105       0.003
+ssmall2          0.0004      0.002      0.211      0.835      -0.004       0.004
+slarge2          0.0028      0.001      1.883      0.072      -0.000       0.006
+streatsmall2    -0.0214      0.033     -0.642      0.527      -0.090       0.047
+streatlarge2     0.0067      0.012      0.540      0.594      -0.019       0.032
+ssmall3       3.249e-05   5.57e-05      0.583      0.565   -8.25e-05       0.000
+slarge3       9.178e-05   4.53e-05      2.025      0.054   -1.74e-06       0.000
+streatsmall3     0.0031      0.004      0.785      0.440      -0.005       0.011
+streatlarge3    -0.0009      0.002     -0.536      0.597      -0.004       0.003
 ==============================================================================
-Omnibus:                      168.702   Durbin-Watson:                   1.984
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2697.177
-Skew:                           3.840   Prob(JB):                         0.00
-Kurtosis:                      20.877   Cond. No.                     4.21e+17
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 5.63e-30. This might indicate that there are
-strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
-==============================================================================
-Dep. Variable:                   INVA   R-squared:                       0.145
-Model:                            OLS   Adj. R-squared:                  0.086
-Method:                 Least Squares   F-statistic:                     666.3
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           4.93e-27
-Time:                        18:29:51   Log-Likelihood:                 130.59
-No. Observations:                 171   AIC:                            -237.2
-Df Residuals:                     159   BIC:                            -199.5
-Df Model:                          11
-Covariance Type:              cluster
-================================================================================
-                   coef    std err          t      P>|t|      [0.025      0.975]
---------------------------------------------------------------------------------
-Intercept       -0.0358      0.028     -1.288      0.210      -0.093       0.022
-smallm          -0.0819      0.038     -2.170      0.040      -0.160      -0.004
-largem           0.0461      0.048      0.966      0.344      -0.052       0.145
-treatsmall       0.2274      0.052      4.373      0.000       0.120       0.335
-treatlarge       0.0343      0.072      0.478      0.637      -0.114       0.183
-ssmall          -0.0304      0.013     -2.265      0.033      -0.058      -0.003
-slarge          -0.0081      0.018     -0.461      0.649      -0.045       0.028
-streatsmall     -0.0503      0.022     -2.249      0.034      -0.096      -0.004
-streatlarge      0.0064      0.024      0.269      0.790      -0.043       0.055
-ssmall2         -0.0011      0.001     -1.623      0.118      -0.003       0.000
-slarge2         -0.0004      0.001     -0.542      0.593      -0.002       0.001
-streatsmall2     0.0204      0.004      5.228      0.000       0.012       0.028
-streatlarge2    -0.0005      0.003     -0.171      0.866      -0.006       0.005
-==============================================================================
-Omnibus:                       28.366   Durbin-Watson:                   2.107
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               38.448
-Skew:                           0.974   Prob(JB):                     4.48e-09
-Kurtosis:                       4.265   Cond. No.                     4.21e+17
+Omnibus:                       64.809   Durbin-Watson:                   1.657
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              297.265
+Skew:                           1.348   Prob(JB):                     2.82e-65
+Kurtosis:                       8.870   Cond. No.                     3.40e+17
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 5.63e-30. This might indicate that there are
+[2] The smallest eigenvalue is 3.18e-27. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
 ==============================================================================
-Dep. Variable:                LCSALES   R-squared:                       0.124
-Model:                            OLS   Adj. R-squared:                  0.064
-Method:                 Least Squares   F-statistic:                     2248.
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.35e-33
-Time:                        18:29:51   Log-Likelihood:                -52.656
-No. Observations:                 171   AIC:                             129.3
-Df Residuals:                     159   BIC:                             167.0
-Df Model:                          11
-Covariance Type:              cluster
-================================================================================
-                   coef    std err          t      P>|t|      [0.025      0.975]
---------------------------------------------------------------------------------
-Intercept        0.5794      0.097      5.993      0.000       0.380       0.779
-smallm           0.1429      0.120      1.186      0.247      -0.106       0.392
-largem           0.4365      0.165      2.648      0.014       0.096       0.777
-treatsmall      -0.0494      0.150     -0.329      0.745      -0.359       0.261
-treatlarge      -0.2062      0.257     -0.802      0.430      -0.737       0.324
-ssmall          -0.0262      0.043     -0.605      0.551      -0.116       0.063
-slarge           0.0542      0.042      1.303      0.205      -0.032       0.140
-streatsmall     -0.0497      0.133     -0.375      0.711      -0.323       0.224
-streatlarge     -0.1977      0.077     -2.584      0.016      -0.356      -0.040
-ssmall2         -0.0023      0.002     -1.071      0.295      -0.007       0.002
-slarge2          0.0010      0.002      0.648      0.523      -0.002       0.004
-streatsmall2     0.0301      0.024      1.232      0.230      -0.020       0.080
-streatlarge2     0.0259      0.010      2.537      0.018       0.005       0.047
-==============================================================================
-Omnibus:                       44.377   Durbin-Watson:                   2.316
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               87.877
-Skew:                           1.204   Prob(JB):                     8.27e-20
-Kurtosis:                       5.557   Cond. No.                     4.21e+17
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 5.63e-30. This might indicate that there are
-strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
-==============================================================================
-Dep. Variable:                SCSALES   R-squared:                       0.098
-Model:                            OLS   Adj. R-squared:                  0.035
-Method:                 Least Squares   F-statistic:                     585.3
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.31e-26
-Time:                        18:29:51   Log-Likelihood:                -122.62
-No. Observations:                 171   AIC:                             269.2
-Df Residuals:                     159   BIC:                             306.9
-Df Model:                          11
-Covariance Type:              cluster
-================================================================================
-                   coef    std err          t      P>|t|      [0.025      0.975]
---------------------------------------------------------------------------------
-Intercept        0.6464      0.057     11.409      0.000       0.529       0.763
-smallm           0.2431      0.143      1.696      0.103      -0.053       0.539
-largem           0.4033      0.172      2.342      0.028       0.048       0.759
-treatsmall       0.2469      0.201      1.229      0.231      -0.168       0.662
-treatlarge      -0.1558      0.276     -0.565      0.577      -0.725       0.414
-ssmall          -0.0644      0.054     -1.194      0.244      -0.176       0.047
-slarge           0.0390      0.040      0.965      0.344      -0.044       0.122
-streatsmall      0.0762      0.124      0.616      0.544      -0.179       0.331
-streatlarge     -0.1238      0.119     -1.044      0.307      -0.369       0.121
-ssmall2         -0.0031      0.003     -1.038      0.310      -0.009       0.003
-slarge2          0.0009      0.002      0.541      0.594      -0.003       0.004
-streatsmall2    -0.0007      0.023     -0.031      0.976      -0.049       0.048
-streatlarge2     0.0185      0.016      1.149      0.262      -0.015       0.052
-==============================================================================
-Omnibus:                      131.298   Durbin-Watson:                   2.109
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1501.980
-Skew:                           2.759   Prob(JB):                         0.00
-Kurtosis:                      16.430   Cond. No.                     4.21e+17
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 5.63e-30. This might indicate that there are
-strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
-==============================================================================
-Dep. Variable:               INVSALES   R-squared:                       0.150
-Model:                            OLS   Adj. R-squared:                  0.060
-Method:                 Least Squares   F-statistic:                     41.66
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.10e-07
-Time:                        18:29:51   Log-Likelihood:                 109.98
-No. Observations:                 115   AIC:                            -196.0
-Df Residuals:                     103   BIC:                            -163.0
-Df Model:                          11
-Covariance Type:              cluster
-================================================================================
-                   coef    std err          t      P>|t|      [0.025      0.975]
---------------------------------------------------------------------------------
-Intercept        0.1091      0.021      5.258      0.000       0.064       0.154
-smallm          -0.0890      0.045     -1.991      0.070      -0.186       0.008
-largem           0.1981      0.054      3.694      0.003       0.081       0.315
-treatsmall       0.0531      0.046      1.146      0.274      -0.048       0.154
-treatlarge      -0.2278      0.081     -2.806      0.016      -0.405      -0.051
-ssmall           0.0256      0.022      1.175      0.263      -0.022       0.073
-slarge           0.1095      0.030      3.610      0.004       0.043       0.176
-streatsmall      0.0024      0.075      0.033      0.975      -0.161       0.166
-streatlarge     -0.1392      0.053     -2.610      0.023      -0.255      -0.023
-ssmall2          0.0035      0.003      1.374      0.195      -0.002       0.009
-slarge2          0.0096      0.003      2.864      0.014       0.002       0.017
-streatsmall2    -0.0190      0.023     -0.819      0.429      -0.070       0.032
-streatlarge2    -0.0056      0.012     -0.448      0.662      -0.033       0.022
-==============================================================================
-Omnibus:                       11.547   Durbin-Watson:                   1.980
-Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.244
-Skew:                           0.673   Prob(JB):                      0.00219
-Kurtosis:                       3.862   Cond. No.                     2.12e+16
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 8.91e-29. This might indicate that there are
-strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
-==============================================================================
-Dep. Variable:              INVTSALES   R-squared:                       0.131
-Model:                            OLS   Adj. R-squared:                  0.038
-Method:                 Least Squares   F-statistic:                     23.12
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           3.01e-06
-Time:                        18:29:51   Log-Likelihood:                 142.20
-No. Observations:                 115   AIC:                            -260.4
-Df Residuals:                     103   BIC:                            -227.5
-Df Model:                          11
-Covariance Type:              cluster
-================================================================================
-                   coef    std err          t      P>|t|      [0.025      0.975]
---------------------------------------------------------------------------------
-Intercept        0.0785      0.025      3.126      0.009       0.024       0.133
-smallm          -0.0631      0.030     -2.117      0.056      -0.128       0.002
-largem           0.1416      0.041      3.490      0.004       0.053       0.230
-treatsmall       0.0153      0.037      0.411      0.688      -0.066       0.097
-treatlarge      -0.1633      0.070     -2.322      0.039      -0.317      -0.010
-ssmall           0.0171      0.014      1.231      0.242      -0.013       0.047
-slarge           0.0704      0.033      2.137      0.054      -0.001       0.142
-streatsmall     -0.0071      0.014     -0.509      0.620      -0.038       0.023
-streatlarge     -0.0923      0.048     -1.910      0.080      -0.198       0.013
-ssmall2          0.0021      0.001      1.707      0.113      -0.001       0.005
-slarge2          0.0056      0.004      1.445      0.174      -0.003       0.014
-streatsmall2    -0.0078      0.001     -5.571      0.000      -0.011      -0.005
-streatlarge2     0.0004      0.010      0.034      0.973      -0.022       0.023
-==============================================================================
-Omnibus:                       27.743   Durbin-Watson:                   2.062
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               52.172
-Skew:                           1.016   Prob(JB):                     4.69e-12
-Kurtosis:                       5.600   Cond. No.                     2.12e+16
-==============================================================================
-
-Notes:
-[1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 8.91e-29. This might indicate that there are
-strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
-==============================================================================
-Dep. Variable:            INVINTSALES   R-squared:                       0.105
+Dep. Variable:                   INVK   R-squared:                       0.096
 Model:                            OLS   Adj. R-squared:                  0.009
-Method:                 Least Squares   F-statistic:                     121.2
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.17e-10
-Time:                        18:29:51   Log-Likelihood:                 160.78
-No. Observations:                 115   AIC:                            -297.6
-Df Residuals:                     103   BIC:                            -264.6
-Df Model:                          11
+Method:                 Least Squares   F-statistic:                 2.258e+05
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           9.69e-58
+Time:                        18:29:54   Log-Likelihood:                -311.16
+No. Observations:                 171   AIC:                             654.3
+Df Residuals:                     155   BIC:                             704.6
+Df Model:                          15
 Covariance Type:              cluster
 ================================================================================
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
-Intercept        0.0306      0.032      0.955      0.358      -0.039       0.100
-smallm          -0.0259      0.040     -0.640      0.534      -0.114       0.062
-largem           0.0565      0.023      2.500      0.028       0.007       0.106
-treatsmall       0.0378      0.071      0.536      0.602      -0.116       0.191
-treatlarge      -0.0644      0.039     -1.659      0.123      -0.149       0.020
-ssmall           0.0084      0.031      0.270      0.792      -0.060       0.077
-slarge           0.0391      0.013      2.955      0.012       0.010       0.068
-streatsmall      0.0096      0.076      0.126      0.902      -0.157       0.176
-streatlarge     -0.0469      0.016     -2.983      0.011      -0.081      -0.013
-ssmall2          0.0014      0.003      0.425      0.678      -0.006       0.009
-slarge2          0.0040      0.001      3.463      0.005       0.001       0.007
-streatsmall2    -0.0112      0.023     -0.495      0.629      -0.061       0.038
-streatlarge2    -0.0059      0.003     -2.288      0.041      -0.012      -0.000
+Intercept        0.0800      0.357      0.224      0.825      -0.658       0.818
+smallm          -1.0158      0.823     -1.235      0.229      -2.713       0.682
+largem           1.0958      0.501      2.189      0.039       0.063       2.129
+treatsmall       2.5870      1.168      2.215      0.036       0.177       4.997
+treatlarge      -0.6993      0.483     -1.448      0.161      -1.696       0.298
+ssmall          -0.3642      0.545     -0.668      0.510      -1.489       0.760
+slarge           0.3797      0.124      3.059      0.005       0.124       0.636
+streatsmall     -0.7882      0.851     -0.926      0.364      -2.545       0.969
+streatlarge     -1.3174      0.543     -2.424      0.023      -2.439      -0.196
+ssmall2         -0.0195      0.055     -0.354      0.726      -0.133       0.094
+slarge2          0.0398      0.013      3.102      0.005       0.013       0.066
+streatsmall2     0.4933      0.307      1.609      0.121      -0.139       1.126
+streatlarge2     0.4766      0.264      1.804      0.084      -0.069       1.022
+ssmall3         -0.0002      0.002     -0.126      0.900      -0.003       0.003
+slarge3          0.0012      0.000      3.168      0.004       0.000       0.002
+streatsmall3    -0.0521      0.035     -1.469      0.155      -0.125       0.021
+streatlarge3    -0.0664      0.035     -1.918      0.067      -0.138       0.005
 ==============================================================================
-Omnibus:                       53.693   Durbin-Watson:                   1.743
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              284.058
-Skew:                           1.453   Prob(JB):                     2.08e-62
-Kurtosis:                      10.130   Cond. No.                     2.12e+16
+Omnibus:                      165.949   Durbin-Watson:                   1.984
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2550.932
+Skew:                           3.763   Prob(JB):                         0.00
+Kurtosis:                      20.361   Cond. No.                     3.40e+17
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 8.91e-29. This might indicate that there are
+[2] The smallest eigenvalue is 3.18e-27. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
 ==============================================================================
-Dep. Variable:                   INVK   R-squared:                       0.112
-Model:                            OLS   Adj. R-squared:                  0.017
-Method:                 Least Squares   F-statistic:                     269.7
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.89e-12
-Time:                        18:29:51   Log-Likelihood:                -205.91
-No. Observations:                 115   AIC:                             435.8
-Df Residuals:                     103   BIC:                             468.8
-Df Model:                          11
+Dep. Variable:                   INVA   R-squared:                       0.181
+Model:                            OLS   Adj. R-squared:                  0.102
+Method:                 Least Squares   F-statistic:                 1.552e+05
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           8.69e-56
+Time:                        18:29:54   Log-Likelihood:                 134.32
+No. Observations:                 171   AIC:                            -236.6
+Df Residuals:                     155   BIC:                            -186.4
+Df Model:                          15
 Covariance Type:              cluster
 ================================================================================
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
-Intercept        0.1750      0.314      0.558      0.587      -0.508       0.858
-smallm          -1.1006      0.642     -1.715      0.112      -2.499       0.298
-largem           1.2755      0.389      3.277      0.007       0.428       2.124
-treatsmall       2.5137      0.943      2.665      0.021       0.459       4.569
-treatlarge      -1.1162      0.381     -2.926      0.013      -1.947      -0.285
-ssmall          -0.2836      0.413     -0.687      0.505      -1.183       0.616
-slarge           0.4855      0.135      3.596      0.004       0.191       0.780
-streatsmall     -0.3165      0.895     -0.354      0.730      -2.266       1.633
-streatlarge     -0.7304      0.273     -2.674      0.020      -1.325      -0.135
-ssmall2         -0.0015      0.042     -0.035      0.973      -0.094       0.091
-slarge2          0.0411      0.015      2.736      0.018       0.008       0.074
-streatsmall2     0.1179      0.259      0.455      0.657      -0.446       0.682
-streatlarge2     0.0314      0.067      0.471      0.646      -0.114       0.176
+Intercept        0.0503      0.021      2.404      0.024       0.007       0.093
+smallm          -0.0638      0.059     -1.076      0.293      -0.186       0.059
+largem           0.1140      0.065      1.763      0.091      -0.019       0.248
+treatsmall       0.1090      0.061      1.774      0.089      -0.018       0.236
+treatlarge      -0.1043      0.081     -1.286      0.211      -0.272       0.063
+ssmall           0.0168      0.027      0.626      0.537      -0.039       0.072
+slarge           0.0594      0.033      1.786      0.087      -0.009       0.128
+streatsmall     -0.0132      0.059     -0.225      0.824      -0.134       0.108
+streatlarge     -0.0975      0.049     -1.984      0.059      -0.199       0.004
+ssmall2          0.0044      0.003      1.431      0.165      -0.002       0.011
+slarge2          0.0071      0.004      1.891      0.071      -0.001       0.015
+streatsmall2    -0.0304      0.025     -1.215      0.236      -0.082       0.021
+streatlarge2     0.0099      0.016      0.608      0.549      -0.024       0.044
+ssmall3          0.0002    9.5e-05      1.910      0.068   -1.46e-05       0.000
+slarge3          0.0002      0.000      1.937      0.065   -1.47e-05       0.000
+streatsmall3     0.0057      0.003      1.963      0.061      -0.000       0.012
+streatlarge3    -0.0025      0.002     -1.294      0.208      -0.007       0.002
 ==============================================================================
-Omnibus:                      132.488   Durbin-Watson:                   2.053
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2438.352
-Skew:                           4.122   Prob(JB):                         0.00
-Kurtosis:                      23.998   Cond. No.                     2.12e+16
+Omnibus:                       25.562   Durbin-Watson:                   2.165
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               34.250
+Skew:                           0.888   Prob(JB):                     3.65e-08
+Kurtosis:                       4.287   Cond. No.                     3.40e+17
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 8.91e-29. This might indicate that there are
+[2] The smallest eigenvalue is 3.18e-27. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
 ==============================================================================
-Dep. Variable:                   INVA   R-squared:                       0.155
-Model:                            OLS   Adj. R-squared:                  0.065
-Method:                 Least Squares   F-statistic:                     33.59
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           3.73e-07
-Time:                        18:29:51   Log-Likelihood:                 106.67
-No. Observations:                 115   AIC:                            -189.3
-Df Residuals:                     103   BIC:                            -156.4
-Df Model:                          11
+Dep. Variable:                LCSALES   R-squared:                       0.135
+Model:                            OLS   Adj. R-squared:                  0.052
+Method:                 Least Squares   F-statistic:                 6.147e+06
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           5.86e-75
+Time:                        18:29:54   Log-Likelihood:                -51.556
+No. Observations:                 171   AIC:                             135.1
+Df Residuals:                     155   BIC:                             185.4
+Df Model:                          15
 Covariance Type:              cluster
 ================================================================================
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
-Intercept        0.0982      0.020      5.004      0.000       0.055       0.141
-smallm          -0.0527      0.057     -0.932      0.370      -0.176       0.071
-largem           0.1509      0.066      2.297      0.040       0.008       0.294
-treatsmall       0.0520      0.054      0.955      0.358      -0.067       0.171
-treatlarge      -0.1884      0.084     -2.239      0.045      -0.372      -0.005
-ssmall           0.0440      0.031      1.411      0.184      -0.024       0.112
-slarge           0.0942      0.036      2.624      0.022       0.016       0.172
-streatsmall     -0.0668      0.066     -1.012      0.332      -0.211       0.077
-streatlarge     -0.1202      0.046     -2.593      0.024      -0.221      -0.019
-ssmall2          0.0060      0.004      1.534      0.151      -0.003       0.015
-slarge2          0.0087      0.004      2.148      0.053      -0.000       0.018
-streatsmall2    -0.0062      0.019     -0.326      0.750      -0.048       0.035
-streatlarge2    -0.0030      0.009     -0.336      0.743      -0.023       0.017
+Intercept        0.4612      0.102      4.543      0.000       0.252       0.671
+smallm           0.0139      0.132      0.106      0.917      -0.258       0.286
+largem           0.4473      0.196      2.278      0.032       0.042       0.853
+treatsmall       0.2000      0.133      1.499      0.147      -0.075       0.475
+treatlarge      -0.2020      0.284     -0.712      0.484      -0.788       0.384
+ssmall          -0.1382      0.055     -2.513      0.019      -0.252      -0.025
+slarge           0.0071      0.095      0.075      0.941      -0.189       0.203
+streatsmall      0.0488      0.195      0.250      0.804      -0.354       0.451
+streatlarge      0.0916      0.097      0.943      0.355      -0.109       0.292
+ssmall2         -0.0154      0.006     -2.781      0.010      -0.027      -0.004
+slarge2         -0.0042      0.009     -0.448      0.658      -0.024       0.015
+streatsmall2     0.0504      0.112      0.452      0.656      -0.180       0.281
+streatlarge2    -0.0884      0.014     -6.440      0.000      -0.117      -0.060
+ssmall3         -0.0004      0.000     -2.414      0.024      -0.001   -6.25e-05
+slarge3         -0.0002      0.000     -0.593      0.559      -0.001       0.000
+streatsmall3    -0.0005      0.016     -0.033      0.974      -0.033       0.032
+streatlarge3     0.0155      0.001     11.411      0.000       0.013       0.018
 ==============================================================================
-Omnibus:                        8.804   Durbin-Watson:                   2.026
-Prob(Omnibus):                  0.012   Jarque-Bera (JB):                8.715
-Skew:                           0.574   Prob(JB):                       0.0128
-Kurtosis:                       3.707   Cond. No.                     2.12e+16
+Omnibus:                       42.832   Durbin-Watson:                   2.337
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               85.079
+Skew:                           1.159   Prob(JB):                     3.35e-19
+Kurtosis:                       5.563   Cond. No.                     3.40e+17
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 8.91e-29. This might indicate that there are
+[2] The smallest eigenvalue is 3.18e-27. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
 ==============================================================================
-Dep. Variable:                LCSALES   R-squared:                       0.114
-Model:                            OLS   Adj. R-squared:                  0.019
-Method:                 Least Squares   F-statistic:                 2.116e+04
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           8.47e-24
-Time:                        18:29:52   Log-Likelihood:                -37.521
-No. Observations:                 115   AIC:                             99.04
-Df Residuals:                     103   BIC:                             132.0
-Df Model:                          11
+Dep. Variable:                SCSALES   R-squared:                       0.122
+Model:                            OLS   Adj. R-squared:                  0.037
+Method:                 Least Squares   F-statistic:                 8.062e+05
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           2.26e-64
+Time:                        18:29:54   Log-Likelihood:                -120.32
+No. Observations:                 171   AIC:                             272.6
+Df Residuals:                     155   BIC:                             322.9
+Df Model:                          15
 Covariance Type:              cluster
 ================================================================================
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
-Intercept        0.3654      0.110      3.316      0.006       0.125       0.606
-smallm           0.0031      0.167      0.018      0.986      -0.360       0.366
-largem           0.3624      0.255      1.422      0.181      -0.193       0.918
-treatsmall       0.3404      0.123      2.769      0.017       0.073       0.608
-treatlarge      -0.0097      0.357     -0.027      0.979      -0.787       0.767
-ssmall          -0.1993      0.055     -3.616      0.004      -0.319      -0.079
-slarge          -0.0794      0.183     -0.433      0.673      -0.479       0.320
-streatsmall     -0.1379      0.087     -1.580      0.140      -0.328       0.052
-streatlarge      0.0984      0.185      0.530      0.606      -0.306       0.503
-ssmall2         -0.0207      0.005     -4.107      0.001      -0.032      -0.010
-slarge2         -0.0119      0.018     -0.650      0.528      -0.052       0.028
-streatsmall2     0.1565      0.022      7.002      0.000       0.108       0.205
-streatlarge2    -0.0114      0.020     -0.580      0.573      -0.054       0.031
+Intercept        0.6049      0.102      5.901      0.000       0.393       0.816
+smallm           0.2281      0.318      0.717      0.480      -0.428       0.884
+largem           0.3768      0.260      1.451      0.160      -0.159       0.913
+treatsmall       0.1953      0.396      0.493      0.626      -0.622       1.012
+treatlarge      -0.1881      0.261     -0.722      0.477      -0.726       0.350
+ssmall          -0.0900      0.192     -0.469      0.643      -0.486       0.306
+slarge           0.0092      0.086      0.106      0.916      -0.168       0.187
+streatsmall      0.7448      0.286      2.607      0.015       0.155       1.334
+streatlarge      0.1416      0.167      0.848      0.405      -0.203       0.486
+ssmall2         -0.0061      0.020     -0.302      0.765      -0.047       0.035
+slarge2         -0.0024      0.009     -0.270      0.789      -0.021       0.016
+streatsmall2    -0.3425      0.101     -3.384      0.002      -0.551      -0.134
+streatlarge2    -0.0945      0.064     -1.477      0.153      -0.226       0.038
+ssmall3      -9.845e-05      0.001     -0.171      0.866      -0.001       0.001
+slarge3       -9.95e-05      0.000     -0.383      0.705      -0.001       0.000
+streatsmall3     0.0453      0.012      3.906      0.001       0.021       0.069
+streatlarge3     0.0150      0.008      1.926      0.066      -0.001       0.031
 ==============================================================================
-Omnibus:                       26.824   Durbin-Watson:                   2.157
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):               46.081
-Skew:                           1.029   Prob(JB):                     9.86e-11
-Kurtosis:                       5.320   Cond. No.                     2.12e+16
+Omnibus:                      126.263   Durbin-Watson:                   2.139
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1439.083
+Skew:                           2.607   Prob(JB):                         0.00
+Kurtosis:                      16.221   Cond. No.                     3.40e+17
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 8.91e-29. This might indicate that there are
+[2] The smallest eigenvalue is 3.18e-27. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
 ==============================================================================
-Dep. Variable:                SCSALES   R-squared:                       0.101
-Model:                            OLS   Adj. R-squared:                  0.005
-Method:                 Least Squares   F-statistic:                     1091.
-Date:                Sun, 28 Mar 2021   Prob (F-statistic):           4.46e-16
-Time:                        18:29:52   Log-Likelihood:                -91.334
-No. Observations:                 115   AIC:                             206.7
-Df Residuals:                     103   BIC:                             239.6
-Df Model:                          11
+Dep. Variable:               INVSALES   R-squared:                       0.202
+Model:                            OLS   Adj. R-squared:                  0.082
+Method:                 Least Squares   F-statistic:                 1.102e+08
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           5.34e-46
+Time:                        18:29:54   Log-Likelihood:                 113.62
+No. Observations:                 115   AIC:                            -195.2
+Df Residuals:                      99   BIC:                            -151.3
+Df Model:                          15
 Covariance Type:              cluster
 ================================================================================
                    coef    std err          t      P>|t|      [0.025      0.975]
 --------------------------------------------------------------------------------
-Intercept        0.6255      0.111      5.659      0.000       0.385       0.866
-smallm           0.2081      0.283      0.736      0.476      -0.408       0.824
-largem           0.4174      0.261      1.597      0.136      -0.152       0.987
-treatsmall       0.2090      0.344      0.608      0.555      -0.540       0.958
-treatlarge      -0.2268      0.318     -0.713      0.489      -0.919       0.466
-ssmall          -0.0761      0.164     -0.464      0.651      -0.434       0.281
-slarge           0.0313      0.157      0.200      0.845      -0.310       0.373
-streatsmall      0.5119      0.313      1.633      0.128      -0.171       1.195
-streatlarge      0.0326      0.210      0.155      0.879      -0.424       0.489
-ssmall2         -0.0025      0.016     -0.153      0.881      -0.038       0.033
-slarge2         -0.0005      0.016     -0.031      0.976      -0.036       0.035
-streatsmall2    -0.1393      0.087     -1.592      0.137      -0.330       0.051
-streatlarge2    -0.0284      0.041     -0.686      0.505      -0.118       0.062
+Intercept        0.1262      0.054      2.353      0.036       0.009       0.243
+smallm          -0.0941      0.104     -0.908      0.382      -0.320       0.132
+largem           0.2202      0.138      1.592      0.137      -0.081       0.522
+treatsmall       0.0314      0.090      0.349      0.733      -0.164       0.227
+treatlarge      -0.3058      0.182     -1.676      0.120      -0.703       0.092
+ssmall           0.0356      0.075      0.473      0.645      -0.128       0.200
+slarge           0.1375      0.131      1.052      0.314      -0.147       0.422
+streatsmall      0.2847      0.075      3.782      0.003       0.121       0.449
+streatlarge      0.0694      0.131      0.531      0.605      -0.215       0.354
+ssmall2          0.0058      0.018      0.325      0.751      -0.033       0.045
+slarge2          0.0154      0.027      0.564      0.583      -0.044       0.075
+streatsmall2    -0.3352      0.018    -18.632      0.000      -0.374      -0.296
+streatlarge2    -0.2019      0.027     -7.406      0.000      -0.261      -0.142
+ssmall3          0.0002      0.001      0.122      0.905      -0.003       0.003
+slarge3          0.0004      0.002      0.211      0.836      -0.003       0.004
+streatsmall3     0.0728      0.001     57.717      0.000       0.070       0.076
+streatlarge3     0.0388      0.002     22.974      0.000       0.035       0.042
 ==============================================================================
-Omnibus:                       96.439   Durbin-Watson:                   2.199
-Prob(Omnibus):                  0.000   Jarque-Bera (JB):              928.229
-Skew:                           2.797   Prob(JB):                    2.74e-202
-Kurtosis:                      15.744   Cond. No.                     2.12e+16
+Omnibus:                        6.167   Durbin-Watson:                   1.891
+Prob(Omnibus):                  0.046   Jarque-Bera (JB):                5.623
+Skew:                           0.503   Prob(JB):                       0.0601
+Kurtosis:                       3.402   Cond. No.                     1.18e+17
 ==============================================================================
 
 Notes:
 [1] Standard Errors are robust to cluster correlation (cluster)
-[2] The smallest eigenvalue is 8.91e-29. This might indicate that there are
+[2] The smallest eigenvalue is 1.64e-28. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
+==============================================================================
+Dep. Variable:              INVTSALES   R-squared:                       0.159
+Model:                            OLS   Adj. R-squared:                  0.032
+Method:                 Least Squares   F-statistic:                 6.948e+04
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           8.51e-27
+Time:                        18:29:54   Log-Likelihood:                 144.09
+No. Observations:                 115   AIC:                            -256.2
+Df Residuals:                      99   BIC:                            -212.3
+Df Model:                          15
+Covariance Type:              cluster
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept        0.1562      0.060      2.608      0.023       0.026       0.287
+smallm          -0.0641      0.092     -0.696      0.500      -0.265       0.136
+largem           0.2203      0.129      1.708      0.113      -0.061       0.501
+treatsmall      -0.0617      0.086     -0.714      0.489      -0.250       0.126
+treatlarge      -0.3510      0.179     -1.962      0.073      -0.741       0.039
+ssmall           0.0810      0.057      1.411      0.184      -0.044       0.206
+slarge           0.1821      0.129      1.410      0.184      -0.099       0.464
+streatsmall     -0.0628      0.057     -1.093      0.296      -0.188       0.062
+streatlarge     -0.0132      0.129     -0.103      0.920      -0.295       0.268
+ssmall2          0.0168      0.012      1.390      0.190      -0.010       0.043
+slarge2          0.0286      0.027      1.062      0.309      -0.030       0.087
+streatsmall2    -0.0314      0.012     -2.594      0.023      -0.058      -0.005
+streatlarge2    -0.1763      0.027     -6.539      0.000      -0.235      -0.118
+ssmall3          0.0010      0.001      1.285      0.223      -0.001       0.003
+slarge3          0.0014      0.002      0.850      0.412      -0.002       0.005
+streatsmall3     0.0011      0.001      1.407      0.185      -0.001       0.003
+streatlarge3     0.0301      0.002     18.017      0.000       0.026       0.034
+==============================================================================
+Omnibus:                       24.467   Durbin-Watson:                   1.980
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               41.196
+Skew:                           0.948   Prob(JB):                     1.13e-09
+Kurtosis:                       5.236   Cond. No.                     1.18e+17
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
+[2] The smallest eigenvalue is 1.64e-28. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
+==============================================================================
+Dep. Variable:            INVINTSALES   R-squared:                       0.203
+Model:                            OLS   Adj. R-squared:                  0.082
+Method:                 Least Squares   F-statistic:                 1.725e+06
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           3.64e-35
+Time:                        18:29:54   Log-Likelihood:                 167.42
+No. Observations:                 115   AIC:                            -302.8
+Df Residuals:                      99   BIC:                            -258.9
+Df Model:                          15
+Covariance Type:              cluster
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept       -0.0300      0.056     -0.540      0.599      -0.151       0.091
+smallm          -0.0300      0.100     -0.299      0.770      -0.249       0.189
+largem       -4.673e-05      0.066     -0.001      0.999      -0.145       0.145
+treatsmall       0.0931      0.148      0.629      0.541      -0.230       0.416
+treatlarge       0.0452      0.070      0.644      0.532      -0.108       0.198
+ssmall          -0.0454      0.102     -0.447      0.663      -0.267       0.176
+slarge          -0.0446      0.053     -0.840      0.417      -0.160       0.071
+streatsmall      0.3475      0.102      3.415      0.005       0.126       0.569
+streatlarge      0.0826      0.053      1.556      0.146      -0.033       0.198
+ssmall2         -0.0110      0.022     -0.499      0.627      -0.059       0.037
+slarge2         -0.0133      0.011     -1.236      0.240      -0.037       0.010
+streatsmall2    -0.3039      0.022    -13.842      0.000      -0.352      -0.256
+streatlarge2    -0.0256      0.011     -2.385      0.034      -0.049      -0.002
+ssmall3         -0.0008      0.001     -0.562      0.584      -0.004       0.002
+slarge3         -0.0011      0.001     -1.668      0.121      -0.002       0.000
+streatsmall3     0.0717      0.001     48.591      0.000       0.069       0.075
+streatlarge3     0.0086      0.001     13.537      0.000       0.007       0.010
+==============================================================================
+Omnibus:                       43.399   Durbin-Watson:                   1.744
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              157.311
+Skew:                           1.265   Prob(JB):                     6.92e-35
+Kurtosis:                       8.141   Cond. No.                     1.18e+17
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
+[2] The smallest eigenvalue is 1.64e-28. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
+==============================================================================
+Dep. Variable:                   INVK   R-squared:                       0.154
+Model:                            OLS   Adj. R-squared:                  0.025
+Method:                 Least Squares   F-statistic:                 2.485e+09
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           4.06e-54
+Time:                        18:29:54   Log-Likelihood:                -203.13
+No. Observations:                 115   AIC:                             438.3
+Df Residuals:                      99   BIC:                             482.2
+Df Model:                          15
+Covariance Type:              cluster
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept        1.3909      0.746      1.865      0.087      -0.234       3.015
+smallm           1.3501      1.820      0.742      0.472      -2.615       5.315
+largem           0.0408      1.204      0.034      0.974      -2.583       2.665
+treatsmall      -1.0454      2.507     -0.417      0.684      -6.507       4.416
+treatlarge      -1.3070      0.837     -1.561      0.144      -3.131       0.517
+ssmall           2.7681      2.256      1.227      0.243      -2.147       7.683
+slarge           0.4721      0.607      0.778      0.452      -0.850       1.794
+streatsmall     -6.6029      2.256     -2.927      0.013     -11.518      -1.688
+streatlarge      0.5632      0.607      0.928      0.371      -0.758       1.885
+ssmall2          0.7001      0.546      1.281      0.224      -0.491       1.891
+slarge2          0.0383      0.127      0.301      0.769      -0.239       0.316
+streatsmall2     2.8910      0.546      5.290      0.000       1.700       4.082
+streatlarge2    -0.9965      0.127     -7.820      0.000      -1.274      -0.719
+ssmall3          0.0470      0.037      1.282      0.224      -0.033       0.127
+slarge3         -0.0002      0.008     -0.022      0.983      -0.017       0.017
+streatsmall3    -0.8547      0.037    -23.322      0.000      -0.935      -0.775
+streatlarge3     0.2118      0.008     26.822      0.000       0.195       0.229
+==============================================================================
+Omnibus:                      123.295   Durbin-Watson:                   2.019
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2035.572
+Skew:                           3.722   Prob(JB):                         0.00
+Kurtosis:                      22.220   Cond. No.                     1.18e+17
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
+[2] The smallest eigenvalue is 1.64e-28. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
+==============================================================================
+Dep. Variable:                   INVA   R-squared:                       0.186
+Model:                            OLS   Adj. R-squared:                  0.062
+Method:                 Least Squares   F-statistic:                 3.777e+07
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           3.29e-43
+Time:                        18:29:54   Log-Likelihood:                 108.79
+No. Observations:                 115   AIC:                            -185.6
+Df Residuals:                      99   BIC:                            -141.7
+Df Model:                          15
+Covariance Type:              cluster
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept        0.1052      0.061      1.724      0.110      -0.028       0.238
+smallm          -0.1144      0.134     -0.856      0.409      -0.406       0.177
+largem           0.2196      0.172      1.276      0.226      -0.155       0.595
+treatsmall       0.0988      0.116      0.848      0.413      -0.155       0.353
+treatlarge      -0.2900      0.221     -1.312      0.214      -0.772       0.192
+ssmall          -0.0015      0.101     -0.015      0.988      -0.221       0.218
+slarge           0.1483      0.159      0.931      0.370      -0.199       0.496
+streatsmall      0.2158      0.101      2.139      0.054      -0.004       0.436
+streatlarge     -0.0163      0.159     -0.102      0.920      -0.364       0.331
+ssmall2         -0.0044      0.024     -0.181      0.859      -0.058       0.049
+slarge2          0.0199      0.033      0.595      0.563      -0.053       0.093
+streatsmall2    -0.2504      0.024    -10.224      0.000      -0.304      -0.197
+streatlarge2    -0.1414      0.033     -4.238      0.001      -0.214      -0.069
+ssmall3         -0.0007      0.002     -0.404      0.694      -0.004       0.003
+slarge3          0.0007      0.002      0.333      0.745      -0.004       0.005
+streatsmall3     0.0599      0.002     34.496      0.000       0.056       0.064
+streatlarge3     0.0254      0.002     12.309      0.000       0.021       0.030
+==============================================================================
+Omnibus:                        8.569   Durbin-Watson:                   2.003
+Prob(Omnibus):                  0.014   Jarque-Bera (JB):                8.537
+Skew:                           0.551   Prob(JB):                       0.0140
+Kurtosis:                       3.753   Cond. No.                     1.18e+17
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
+[2] The smallest eigenvalue is 1.64e-28. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
+==============================================================================
+Dep. Variable:                LCSALES   R-squared:                       0.159
+Model:                            OLS   Adj. R-squared:                  0.032
+Method:                 Least Squares   F-statistic:                 6.364e+05
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           1.44e-32
+Time:                        18:29:54   Log-Likelihood:                -34.499
+No. Observations:                 115   AIC:                             101.0
+Df Residuals:                      99   BIC:                             144.9
+Df Model:                          15
+Covariance Type:              cluster
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept       -0.2469      0.317     -0.778      0.452      -0.938       0.445
+smallm           0.7127      0.337      2.114      0.056      -0.022       1.447
+largem          -0.9595      0.642     -1.495      0.161      -2.358       0.439
+treatsmall       0.2339      0.129      1.811      0.095      -0.048       0.515
+treatlarge       1.9004      0.955      1.990      0.070      -0.180       3.981
+ssmall          -0.1183      0.123     -0.962      0.355      -0.386       0.150
+slarge          -1.4609      0.703     -2.079      0.060      -2.992       0.070
+streatsmall      0.0568      0.123      0.462      0.652      -0.211       0.325
+streatlarge      1.6266      0.703      2.315      0.039       0.095       3.158
+ssmall2         -0.0020      0.031     -0.066      0.948      -0.069       0.065
+slarge2         -0.2966      0.137     -2.164      0.051      -0.595       0.002
+streatsmall2    -0.1583      0.031     -5.151      0.000      -0.225      -0.091
+streatlarge2     0.1552      0.137      1.132      0.280      -0.143       0.454
+ssmall3          0.0012      0.002      0.573      0.577      -0.003       0.006
+slarge3         -0.0176      0.008     -2.217      0.047      -0.035      -0.000
+streatsmall3     0.0676      0.002     31.029      0.000       0.063       0.072
+streatlarge3     0.0418      0.008      5.276      0.000       0.025       0.059
+==============================================================================
+Omnibus:                       23.176   Durbin-Watson:                   2.117
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               33.711
+Skew:                           0.982   Prob(JB):                     4.78e-08
+Kurtosis:                       4.782   Cond. No.                     1.18e+17
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
+[2] The smallest eigenvalue is 1.64e-28. This might indicate that there are
+strong multicollinearity problems or that the design matrix is singular.                            OLS Regression Results
+==============================================================================
+Dep. Variable:                SCSALES   R-squared:                       0.156
+Model:                            OLS   Adj. R-squared:                  0.028
+Method:                 Least Squares   F-statistic:                 3.144e+07
+Date:                Sun, 28 Mar 2021   Prob (F-statistic):           9.90e-43
+Time:                        18:29:54   Log-Likelihood:                -87.750
+No. Observations:                 115   AIC:                             207.5
+Df Residuals:                      99   BIC:                             251.4
+Df Model:                          15
+Covariance Type:              cluster
+================================================================================
+                   coef    std err          t      P>|t|      [0.025      0.975]
+--------------------------------------------------------------------------------
+Intercept        0.4511      0.435      1.038      0.320      -0.496       1.398
+smallm           1.6598      0.853      1.947      0.075      -0.198       3.518
+largem          -1.2087      0.852     -1.419      0.181      -3.065       0.647
+treatsmall      -1.1045      1.052     -1.050      0.314      -3.396       1.187
+treatlarge       1.4506      1.050      1.382      0.192      -0.836       3.737
+ssmall           0.9871      0.919      1.074      0.304      -1.015       2.989
+slarge          -1.2547      0.787     -1.594      0.137      -2.970       0.460
+streatsmall      0.5370      0.919      0.584      0.570      -1.465       2.539
+streatlarge      2.0700      0.787      2.630      0.022       0.355       3.785
+ssmall2          0.2419      0.220      1.100      0.293      -0.237       0.721
+slarge2         -0.2656      0.158     -1.686      0.118      -0.609       0.078
+streatsmall2    -1.5526      0.220     -7.063      0.000      -2.032      -1.074
+streatlarge2    -0.3683      0.158     -2.338      0.038      -0.711      -0.025
+ssmall3          0.0164      0.015      1.113      0.287      -0.016       0.048
+slarge3         -0.0164      0.009     -1.763      0.103      -0.037       0.004
+streatsmall3     0.2554      0.015     17.359      0.000       0.223       0.287
+streatlarge3     0.1406      0.009     15.144      0.000       0.120       0.161
+==============================================================================
+Omnibus:                       85.725   Durbin-Watson:                   2.224
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              692.356
+Skew:                           2.444   Prob(JB):                    4.54e-151
+Kurtosis:                      13.981   Cond. No.                     1.18e+17
+==============================================================================
+
+Notes:
+[1] Standard Errors are robust to cluster correlation (cluster)
+[2] The smallest eigenvalue is 1.64e-28. This might indicate that there are
 strong multicollinearity problems or that the design matrix is singular.
