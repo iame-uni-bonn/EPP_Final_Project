@@ -1,7 +1,7 @@
 """  The aim is to regress the outcome variables on size related covariates.
 There are three different samples: 1) full sample: 357 firms, 2) wide_window: 171 firms
 with scores between (51,81) and 3) narrow_window: 115 firms with scores between (65,79).
-The significance of treatsmall' or 'treatlarge' shows that the funding program was effective
+The significance of 'treatsmall' or 'treatlarge' shows that the funding program was effective
 regarding the size of frims.
 
 The result of our replication can be compered to the Table 5_Effect of the Program on
