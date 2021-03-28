@@ -46,7 +46,7 @@ def regress(independent_Variable, dataframe, degree):
 
 
     Returns:
-        regression result(text)
+        regression result(summary)
 
 
     """
